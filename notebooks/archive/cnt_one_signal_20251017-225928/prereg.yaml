@@ -1,0 +1,9 @@
+# CNT One-Signal — Prereg (v3.5)
+timestamp: 20251017-225928
+critical_systems: ['Kuramoto', 'Ising', 'SaddleNode']
+labels: {fraction: 0.22, min: 450, max: 2000}
+v1: [AC1, Variance, 1-Flatness] + early-window AUCs
+v2: weighted ranks [AC1_trend, Var, 1-Flatness, DFA_alpha, LowFreqFrac, PermEntropy(inv)]
+  + EMA(0.15) + 7-of-9 hysteresis
+theta: v1 pooled-F1 sweep; v2 maximize lead/(1+0.004*alarm_len) @ precision ≥ 0.6 → F1 → fixed quantile
+roots: [WindowsPath('C:/Users/caleb/CNT_Lab/notebooks/archive'), WindowsPath('C:/Users/caleb/CNT_Lab')]

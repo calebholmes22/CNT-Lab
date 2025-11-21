@@ -1,0 +1,888 @@
+[
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial04_score0.904.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial04_score0.904.svg",
+    "rule_id": 50,
+    "trial": 4,
+    "seed": 10592605,
+    "score": 0.9043463771032605,
+    "glyphness": 0.8379163870190212,
+    "symmetry": 0.0,
+    "recurrence": 0.99749755859375,
+    "compressibility": 0.8602294921875,
+    "cohesion": 0.09382451472146112,
+    "alive": 0.4027099609375,
+    "entropy": 0.9725137635679231,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.9512939453125,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial07_score0.904.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial07_score0.904.svg",
+    "rule_id": 50,
+    "trial": 7,
+    "seed": 10592644,
+    "score": 0.9037372987403831,
+    "glyphness": 0.8349770388870164,
+    "symmetry": 0.0,
+    "recurrence": 0.9949951171875,
+    "compressibility": 0.8628743489583334,
+    "cohesion": 0.06546863105766283,
+    "alive": 0.41455078125,
+    "entropy": 0.9788283557469806,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.95416259765625,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial02_score0.903.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial02_score0.903.svg",
+    "rule_id": 50,
+    "trial": 2,
+    "seed": 10592579,
+    "score": 0.9033985875613102,
+    "glyphness": 0.8353250071538705,
+    "symmetry": 0.0,
+    "recurrence": 0.99908447265625,
+    "compressibility": 0.8654513888888888,
+    "cohesion": 0.056904042892870633,
+    "alive": 0.4178466796875,
+    "entropy": 0.9804374352406781,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.95245361328125,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial00_score0.903.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial00_score0.903.svg",
+    "rule_id": 50,
+    "trial": 0,
+    "seed": 10592553,
+    "score": 0.9033038923255001,
+    "glyphness": 0.8356849330885003,
+    "symmetry": 0.0,
+    "recurrence": 0.9986572265625,
+    "compressibility": 0.8640272352430556,
+    "cohesion": 0.06349402489541989,
+    "alive": 0.41448974609375,
+    "entropy": 0.9787979494596903,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.9515380859375,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial06_score0.903.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial06_score0.903.svg",
+    "rule_id": 50,
+    "trial": 6,
+    "seed": 10592631,
+    "score": 0.9032743565692618,
+    "glyphness": 0.8356991037635235,
+    "symmetry": 0.0,
+    "recurrence": 0.9964599609375,
+    "compressibility": 0.862060546875,
+    "cohesion": 0.07098029544773443,
+    "alive": 0.41168212890625,
+    "entropy": 0.9773753053233954,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.951416015625,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial03_score0.903.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial03_score0.903.svg",
+    "rule_id": 50,
+    "trial": 3,
+    "seed": 10592592,
+    "score": 0.9026341425876852,
+    "glyphness": 0.8367990468941202,
+    "symmetry": 0.0,
+    "recurrence": 0.99700927734375,
+    "compressibility": 0.8640272352430556,
+    "cohesion": 0.07793106138911808,
+    "alive": 0.40850830078125,
+    "entropy": 0.9757105529274592,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.94744873046875,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial05_score0.903.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial05_score0.903.svg",
+    "rule_id": 50,
+    "trial": 5,
+    "seed": 10592618,
+    "score": 0.9025315948175543,
+    "glyphness": 0.8357150451038586,
+    "symmetry": 0.0,
+    "recurrence": 0.9981689453125,
+    "compressibility": 0.8647054036458334,
+    "cohesion": 0.06375445494483575,
+    "alive": 0.4146728515625,
+    "entropy": 0.9788891018887348,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.94891357421875,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial01_score0.900.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule050_trial01_score0.900.svg",
+    "rule_id": 50,
+    "trial": 1,
+    "seed": 10592566,
+    "score": 0.9000875859489532,
+    "glyphness": 0.8354779062729065,
+    "symmetry": 0.0,
+    "recurrence": 0.9984130859375,
+    "compressibility": 0.8631456163194444,
+    "cohesion": 0.06323446637489874,
+    "alive": 0.41473388671875,
+    "entropy": 0.9789194417451007,
+    "period": 2,
+    "period_sim": 1.0,
+    "invariance": 0.941162109375,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule004_trial04_score0.897.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule004_trial04_score0.897.svg",
+    "rule_id": 4,
+    "trial": 4,
+    "seed": 10588143,
+    "score": 0.8966793546578917,
+    "glyphness": 0.8239226741595335,
+    "symmetry": 0.0,
+    "recurrence": 0.9681559244791667,
+    "compressibility": 0.96856689453125,
+    "cohesion": 0.002508176550353912,
+    "alive": 0.5001220703125,
+    "entropy": 0.999999957004337,
+    "period": 2,
+    "period_sim": 0.99212646484375,
+    "invariance": 0.95648193359375,
+    "robustness": 0.9888671875,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          -2,
+          1,
+          -2
+        ]
+      ],
+      "thr_on": 0,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial07_score0.886.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial07_score0.886.svg",
+    "rule_id": 82,
+    "trial": 7,
+    "seed": 10595748,
+    "score": 0.8864430929460381,
+    "glyphness": 0.8089267751825624,
+    "symmetry": 0.0,
+    "recurrence": 0.9977254231770833,
+    "compressibility": 0.8865763346354166,
+    "cohesion": 0.009676983501181534,
+    "alive": 0.110595703125,
+    "entropy": 0.5017101680068605,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.985107421875,
+    "robustness": 0.9322373939612842,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial04_score0.885.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial04_score0.885.svg",
+    "rule_id": 82,
+    "trial": 4,
+    "seed": 10595709,
+    "score": 0.8849466534367886,
+    "glyphness": 0.8071815566759168,
+    "symmetry": 0.0,
+    "recurrence": 0.9980509440104167,
+    "compressibility": 0.88739013671875,
+    "cohesion": 0.007891048421190401,
+    "alive": 0.1082763671875,
+    "entropy": 0.4946949700956078,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.9822998046875,
+    "robustness": 0.9333296684629004,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial02_score0.884.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial02_score0.884.svg",
+    "rule_id": 82,
+    "trial": 2,
+    "seed": 10595683,
+    "score": 0.8842707711375456,
+    "glyphness": 0.807151745722005,
+    "symmetry": 0.0,
+    "recurrence": 0.9979044596354166,
+    "compressibility": 0.8870510525173612,
+    "cohesion": 0.009323119919223502,
+    "alive": 0.108154296875,
+    "entropy": 0.4943235357015806,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.9879150390625,
+    "robustness": 0.9216019327889653,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial06_score0.884.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial06_score0.884.svg",
+    "rule_id": 82,
+    "trial": 6,
+    "seed": 10595735,
+    "score": 0.8838079554405402,
+    "glyphness": 0.8069301174950778,
+    "symmetry": 0.0,
+    "recurrence": 0.9978108723958333,
+    "compressibility": 0.8889838324652778,
+    "cohesion": 0.008580382332430449,
+    "alive": 0.10760498046875,
+    "entropy": 0.49264931965150566,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.98199462890625,
+    "robustness": 0.9287225401056322,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial05_score0.883.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial05_score0.883.svg",
+    "rule_id": 82,
+    "trial": 5,
+    "seed": 10595722,
+    "score": 0.8833022291274119,
+    "glyphness": 0.8057253403186289,
+    "symmetry": 0.0,
+    "recurrence": 0.9978759765625,
+    "compressibility": 0.8883734809027778,
+    "cohesion": 0.009473335892369745,
+    "alive": 0.10601806640625,
+    "entropy": 0.48778715712590076,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.98468017578125,
+    "robustness": 0.9251775311686123,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial01_score0.883.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial01_score0.883.svg",
+    "rule_id": 82,
+    "trial": 1,
+    "seed": 10595670,
+    "score": 0.8832927490381292,
+    "glyphness": 0.8031530616670646,
+    "symmetry": 0.0,
+    "recurrence": 0.99735107421875,
+    "compressibility": 0.8900010850694444,
+    "cohesion": 0.007912485899816175,
+    "alive": 0.10272216796875,
+    "entropy": 0.477565741891665,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.984375,
+    "robustness": 0.9320185910229843,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial00_score0.883.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial00_score0.883.svg",
+    "rule_id": 82,
+    "trial": 0,
+    "seed": 10595657,
+    "score": 0.8830772142930029,
+    "glyphness": 0.8079013882077182,
+    "symmetry": 0.0,
+    "recurrence": 0.9975382486979166,
+    "compressibility": 0.8859659830729166,
+    "cohesion": 0.008534334068326734,
+    "alive": 0.10955810546875,
+    "entropy": 0.4985816304014587,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.98388671875,
+    "robustness": 0.9198025228207191,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial03_score0.883.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule082_trial03_score0.883.svg",
+    "rule_id": 82,
+    "trial": 3,
+    "seed": 10595696,
+    "score": 0.8828136221280714,
+    "glyphness": 0.8048553611341969,
+    "symmetry": 0.0,
+    "recurrence": 0.9979288736979167,
+    "compressibility": 0.8893907335069444,
+    "cohesion": 0.008557330479267431,
+    "alive": 0.10479736328125,
+    "entropy": 0.4840209732825798,
+    "period": 12,
+    "period_sim": 1.0,
+    "invariance": 0.98272705078125,
+    "robustness": 0.9278391316329895,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        4,
+        8
+      ],
+      "survive": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule004_trial06_score0.878.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule004_trial06_score0.878.svg",
+    "rule_id": 4,
+    "trial": 6,
+    "seed": 10588169,
+    "score": 0.8779730016442855,
+    "glyphness": 0.8122578522469044,
+    "symmetry": 0.0,
+    "recurrence": 0.9111002604166667,
+    "compressibility": 0.9666341145833334,
+    "cohesion": 0.005311861720937017,
+    "alive": 0.50146484375,
+    "entropy": 0.9999938086157121,
+    "period": 2,
+    "period_sim": 0.99273681640625,
+    "invariance": 0.912353515625,
+    "robustness": 0.9906901041666667,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          -2,
+          1,
+          -2
+        ]
+      ],
+      "thr_on": 0,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule068_trial06_score0.867.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule068_trial06_score0.867.svg",
+    "rule_id": 68,
+    "trial": 6,
+    "seed": 10594377,
+    "score": 0.8666017401404548,
+    "glyphness": 0.7725565076246595,
+    "symmetry": 0.0,
+    "recurrence": 0.59490966796875,
+    "compressibility": 0.9741278754340278,
+    "cohesion": 0.13717599747055406,
+    "alive": 0.39788818359375,
+    "entropy": 0.9697018487911537,
+    "period": 5,
+    "period_sim": 0.96868896484375,
+    "invariance": 0.95550537109375,
+    "robustness": 0.968359375,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -1,
+          1,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          1,
+          -1,
+          0
+        ]
+      ],
+      "thr_on": -1,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule010_trial07_score0.853.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule010_trial07_score0.853.svg",
+    "rule_id": 10,
+    "trial": 7,
+    "seed": 10588764,
+    "score": 0.8531521953247392,
+    "glyphness": 0.7720026328369786,
+    "symmetry": 0.0,
+    "recurrence": 0.26163330078125,
+    "compressibility": 0.9041408962673612,
+    "cohesion": 0.8414028745937434,
+    "alive": 0.21527099609375,
+    "entropy": 0.7514379830265321,
+    "period": 12,
+    "period_sim": 0.99957275390625,
+    "invariance": 0.8905029296875,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        0
+      ],
+      "survive": [
+        2
+      ]
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule004_trial03_score0.850.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule004_trial03_score0.850.svg",
+    "rule_id": 4,
+    "trial": 3,
+    "seed": 10588130,
+    "score": 0.8504891782852885,
+    "glyphness": 0.7895411820914102,
+    "symmetry": 0.0,
+    "recurrence": 0.71630859375,
+    "compressibility": 0.9601576063368056,
+    "cohesion": 0.17565659038616627,
+    "alive": 0.4981689453125,
+    "entropy": 0.9999903259542657,
+    "period": 2,
+    "period_sim": 0.9891357421875,
+    "invariance": 0.8612060546875,
+    "robustness": 0.9867838541666667,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          -2,
+          1,
+          -2
+        ]
+      ],
+      "thr_on": 0,
+      "thr_off": -1
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule077_trial04_score0.838.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule077_trial04_score0.838.svg",
+    "rule_id": 77,
+    "trial": 4,
+    "seed": 10595224,
+    "score": 0.8375909248234502,
+    "glyphness": 0.7655448053760672,
+    "symmetry": 0.0,
+    "recurrence": 0.36581624348958336,
+    "compressibility": 0.9824354383680556,
+    "cohesion": 0.6281409248544204,
+    "alive": 0.3175048828125,
+    "entropy": 0.9016474439461764,
+    "period": 3,
+    "period_sim": 0.9110107421875,
+    "invariance": 0.8736572265625,
+    "robustness": 0.9636067708333333,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          0,
+          -2
+        ],
+        [
+          -2,
+          0,
+          -2
+        ],
+        [
+          0,
+          2,
+          2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": 0
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule077_trial03_score0.828.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule077_trial03_score0.828.svg",
+    "rule_id": 77,
+    "trial": 3,
+    "seed": 10595211,
+    "score": 0.827794986618392,
+    "glyphness": 0.7644156568305339,
+    "symmetry": 0.0,
+    "recurrence": 0.3455810546875,
+    "compressibility": 0.9856228298611112,
+    "cohesion": 0.538525057888672,
+    "alive": 0.327880859375,
+    "entropy": 0.9127465899847083,
+    "period": 3,
+    "period_sim": 0.968017578125,
+    "invariance": 0.86029052734375,
+    "robustness": 0.9375,
+    "meta": {
+      "kind": "kernel",
+      "K": [
+        [
+          -2,
+          0,
+          -2
+        ],
+        [
+          -2,
+          0,
+          -2
+        ],
+        [
+          0,
+          2,
+          2
+        ]
+      ],
+      "thr_on": 1,
+      "thr_off": 0
+    }
+  },
+  {
+    "png": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule010_trial04_score0.818.png",
+    "svg": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\rule010_trial04_score0.818.svg",
+    "rule_id": 10,
+    "trial": 4,
+    "seed": 10588725,
+    "score": 0.8184478070493155,
+    "glyphness": 0.6977598719111311,
+    "symmetry": 0.0,
+    "recurrence": 0.2737630208333333,
+    "compressibility": 0.9016316731770834,
+    "cohesion": 0.8776251676790189,
+    "alive": 0.2210693359375,
+    "entropy": 0.7621152777271116,
+    "period": 24,
+    "period_sim": 0.6,
+    "invariance": 0.8985595703125,
+    "robustness": 1.0,
+    "meta": {
+      "kind": "lifelike",
+      "birth": [
+        0
+      ],
+      "survive": [
+        2
+      ]
+    }
+  }
+]

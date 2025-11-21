@@ -1,0 +1,30 @@
+== CNT One-Signal Thesis (REWS) — Fused & Upgraded & Hardened ==
+Run: 20251017-202301
+
+Global Θ (REWS threshold): 0.8321
+
+AUCs & Lead Times (higher AUC better; lead time in samples):
+  system  AUC_REWS  AUC_Variance  AUC_AC1  AUC_1-Flatness  AUC_C1z  AUC_C2z_inv  AUC_C3z  LeadTime_at_Theta
+Kuramoto    0.4896        0.7514   0.6499          0.6137   0.4668       0.5862   0.5403               1918
+   Ising    0.6010        0.8820   0.9299          0.8385   0.6238       0.5359   0.5418               4916
+Logistic    0.5037        0.9379   0.0672          0.2215   0.4741       0.5909   0.4471               5744
+  Lorenz    0.4925        0.5243   0.3795          0.4343   0.4825       0.5222   0.4816               4881
+
+Noise robustness (AUC_REWS under Gaussian noise):
+  system  noise_sd  AUC_REWS
+   Ising       0.0  0.418554
+   Ising       0.1  0.511160
+   Ising       0.2  0.506631
+   Ising       0.3  0.492635
+Kuramoto       0.0  0.416184
+Kuramoto       0.1  0.532997
+Kuramoto       0.2  0.521651
+Kuramoto       0.3  0.523854
+Logistic       0.0  0.496001
+Logistic       0.1  0.505293
+Logistic       0.2  0.522948
+Logistic       0.3  0.526178
+  Lorenz       0.0  0.472540
+  Lorenz       0.1  0.440486
+  Lorenz       0.2  0.439571
+  Lorenz       0.3  0.438994

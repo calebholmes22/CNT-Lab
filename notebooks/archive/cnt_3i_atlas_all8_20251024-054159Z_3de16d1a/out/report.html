@@ -1,0 +1,114 @@
+
+<!doctype html>
+<html lang="en"><meta charset="utf-8">
+<head><title>CNT × 3I/ATLAS — Self-Fetching All-8 (v1.4)</title>
+<style>
+body { font-family: system-ui, -apple-system, Arial, sans-serif; margin: 2rem; line-height: 1.45; }
+h1,h2 { margin: 0.2rem 0 0.6rem; }
+code,pre { background:#f6f8fa; padding:0.2rem 0.4rem; border-radius:6px; white-space:pre-wrap; }
+.small { color:#666; font-size:0.9em; }
+.figure { margin:1rem 0; }
+table { border-collapse: collapse; margin: 0.8rem 0; }
+td,th { border:1px solid #ddd; padding:6px 10px; }
+</style></head>
+<body>
+<h1>CNT × 3I/ATLAS — Self-Fetching All-8 (v1.4)</h1>
+
+<h2>Data Provenance</h2>
+<pre>{
+  "noaa_3d": "online",
+  "solar_wind": "NOAA_SWPC_online",
+  "spectra": "synthetic",
+  "lightcurve": "synthetic",
+  "observer_ring": "PRO_analytic"
+}</pre>
+
+<h2>Θ* Early Warning</h2>
+<pre>{
+  "alarm_t_min": 342,
+  "threshold": 1.5,
+  "hold": 10
+}</pre>
+<div class="figure"><img src="../figs/lightcurve_theta.png" width="740"></div>
+
+<h2>Plasma Coupling — 72h Coherence & Phase</h2>
+<div class="figure"><img src="../figs/plasma_resonance_72h.png" width="740"></div>
+<div class="figure"><img src="../figs/plasma_phase_72h.png" width="740"></div>
+<p class="small"><a href="../tables/plasma_resonance_72h.csv">plasma_resonance_72h.csv</a> · <a href="../tables/plasma_phase_72h.csv">plasma_phase_72h.csv</a></p>
+
+<h2>Observer-Ring</h2>
+<h3>Base</h3>
+<pre>{
+  "ok": true,
+  "mode": "pro",
+  "dir_mean_xyz": [
+    0.5017817803346295,
+    0.7731455427856762,
+    0.3878930453009451
+  ],
+  "dir_cov_3x3": [
+    [
+      0.007389444446959362,
+      -0.003919402798951315,
+      -0.0014968519797821718
+    ],
+    [
+      -0.003919402798951315,
+      0.0022729294398951836,
+      0.0005012949538515839
+    ],
+    [
+      -0.0014968519797821718,
+      0.0005012949538515839,
+      0.0010312887968072857
+    ]
+  ],
+  "n_mc": 600
+}</pre>
+<h3>PA-Cluster Fuse</h3>
+<pre>{
+  "n_meas": 3,
+  "n_inliers": 1,
+  "PA_inliers_deg": [
+    26.5
+  ],
+  "PA_mean_deg": 26.5,
+  "PA_sigma_deg": 1.0,
+  "ring_mode": "pro",
+  "n_mc": 2000
+}</pre>
+<h3>RingTighten (multi-epoch)</h3>
+<pre>{
+  "ok": true,
+  "mode": "pro_multi_epoch_analytic",
+  "dir_mean_xyz": [
+    0.4718252315702226,
+    0.78279979388274,
+    0.4057159518047604
+  ],
+  "dir_cov_3x3": [
+    [
+      0.002002650260032081,
+      -0.001296972022180742,
+      0.0002191766976027682
+    ],
+    [
+      -0.001296972022180742,
+      0.0008807533756005271,
+      -0.00021327535192177934
+    ],
+    [
+      0.0002191766976027682,
+      -0.00021327535192177934,
+      0.00017270248401261487
+    ]
+  ],
+  "n_mc": 3000
+}</pre>
+
+<h2>GRA Summary</h2>
+<p class="small"><a href="../tables/gra_summary.csv">gra_summary.csv</a> · <a href="../tables/gra_trials_A.csv">gra_trials_A.csv</a> · <a href="../tables/gra_trials_B.csv">gra_trials_B.csv</a></p>
+
+<hr>
+<p class="small">Pack root: <code>cnt_3i_atlas_all8_20251024-054159Z_3de16d1a</code></p>
+</body></html>

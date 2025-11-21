@@ -1,0 +1,103 @@
+{
+  "tile_center": {
+    "RA": 210.0,
+    "Dec": -0.5,
+    "radius_deg": 0.8
+  },
+  "crossmatch_radius_arcsec": 1.0,
+  "views": {
+    "V1_raw_robust": [
+      "W1mag",
+      "W2mag",
+      "W3mag",
+      "W4mag",
+      "Gmag",
+      "G",
+      "BP_RP",
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W1-W2",
+      "W2-W3",
+      "W3-W4",
+      "W1-W3",
+      "W1-W4",
+      "W2-W4",
+      "SED_slope_W1_W3"
+    ],
+    "V2_colors_std": [
+      "BP-RP",
+      "BP_RP",
+      "W1-W2",
+      "W2-W3",
+      "W3-W4",
+      "W1-W3",
+      "W1-W4",
+      "W2-W4",
+      "SED_slope_W1_W3"
+    ],
+    "V3_log_reordered": [
+      "G",
+      "W1",
+      "W2",
+      "W3",
+      "W4"
+    ],
+    "V4_jitter": [
+      "W1-W3",
+      "SED_slope_W1_W3",
+      "W2-W4",
+      "Gmag",
+      "G",
+      "W4",
+      "W4mag",
+      "W3",
+      "W2mag",
+      "W1-W4",
+      "W1",
+      "BP_RP",
+      "W3mag",
+      "W2-W3",
+      "W2",
+      "W3-W4",
+      "BP-RP",
+      "W1mag",
+      "W1-W2"
+    ],
+    "V5_mixed": [
+      "W1-W3",
+      "SED_slope_W1_W3",
+      "W2-W4",
+      "Gmag",
+      "G",
+      "W4",
+      "W4mag",
+      "W3",
+      "W2mag",
+      "W1-W4",
+      "W1",
+      "BP_RP",
+      "W3mag",
+      "W2-W3",
+      "W2",
+      "W3-W4",
+      "BP-RP",
+      "W1mag",
+      "W1-W2"
+    ]
+  },
+  "models": {
+    "IsolationForest": {
+      "n_estimators": 300,
+      "contamination": 0.01
+    },
+    "LOF": {
+      "neighbors": 35,
+      "contamination": 0.01
+    }
+  },
+  "stability_rule": "flag if votes >= 4 across transforms",
+  "seed": 42,
+  "run_stamp": "20251016-173536"
+}

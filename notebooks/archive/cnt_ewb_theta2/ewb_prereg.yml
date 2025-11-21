@@ -1,0 +1,95 @@
+version: '0.2'
+registered_at_utc: 2025-10-18T04:09:49.361036Z
+frozen_parameters:
+  Theta_star: 0.55
+  persistence_k: 3
+  hazard_target_pos_frac: 0.25
+  hazard_bounds: [0.15, 0.35]
+  gauges:
+    affine: {a: 2.5, b: 7.0}
+    decimate: {factor: 2}
+  score:
+    name: theta2_returns
+    notes: Delta log (1+x) composite of variance, AC1, spectral redness; scaled to [0,1].
+pipeline:
+  event_inference: cooling: steepest_negative_drop_on_robust_median; other: task-specific
+  labeling: adaptive pre-event window (~25% positives, clamped 15–35%)
+  evaluation: [AUC(rank), Precision@Theta*(0.55), Lead@Hit(persist k=3)]
+  gauge_tests: [affine(a=2.5,b=7.0), decimate(factor=2)]
+datasets:
+  - name: cnt_cooling_log_20251015_121543
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_cooling_log_20251015_121543.csv
+    sha256: ee9da42acbd8aed7429ad596b7985d61301603eef00a1634eb0dba3498aec5b2
+    length: 89
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 8
+  - name: cnt_cooling_log_20251015_121543_labeled
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_cooling_log_20251015_121543_labeled.csv
+    sha256: ee9da42acbd8aed7429ad596b7985d61301603eef00a1634eb0dba3498aec5b2
+    length: 89
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 8
+  - name: cnt_unified_cooling_20251015_133429
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_20251015_133429.csv
+    sha256: a1ae0a01537e27d0ed533ce37e04bd72ae09dbff5e2a584d68d26b91a485c056
+    length: 379
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 37
+  - name: cnt_unified_cooling_20251015_133429_labeled
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_20251015_133429_labeled.csv
+    sha256: a1ae0a01537e27d0ed533ce37e04bd72ae09dbff5e2a584d68d26b91a485c056
+    length: 379
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 37
+  - name: cnt_unified_cooling_20251015_133429_labeled_labeled
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_20251015_133429_labeled_labeled.csv
+    sha256: a1ae0a01537e27d0ed533ce37e04bd72ae09dbff5e2a584d68d26b91a485c056
+    length: 379
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 37
+  - name: cnt_unified_cooling_20251015_132627
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_20251015_132627.csv
+    sha256: 1e1df04b94d531a850e7ae5c2c4c8283d7eac945e2574e01b6c8cba9a7916b19
+    length: 312
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 31
+  - name: cnt_unified_cooling_20251015_132627_labeled
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_20251015_132627_labeled.csv
+    sha256: 1e1df04b94d531a850e7ae5c2c4c8283d7eac945e2574e01b6c8cba9a7916b19
+    length: 312
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 31
+  - name: cnt_unified_cooling_v2_20251015_134310
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_v2_20251015_134310.csv
+    sha256: f6be857fe51ea968d59e66816c0884a6d932ae6951480e5db40402ed7015bb6e
+    length: 329
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 32
+  - name: cnt_unified_cooling_v2_20251015_134310_labeled
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_v2_20251015_134310_labeled.csv
+    sha256: f6be857fe51ea968d59e66816c0884a6d932ae6951480e5db40402ed7015bb6e
+    length: 329
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 32
+  - name: cnt_unified_cooling_v2_20251015_134310_labeled_labeled
+    path: cnt_ewb_data/real_live/cooling_segments/cnt_unified_cooling_v2_20251015_134310_labeled_labeled.csv
+    sha256: f6be857fe51ea968d59e66816c0884a6d932ae6951480e5db40402ed7015bb6e
+    length: 329
+    event: steepest_negative_drop_on_robust_median
+    hazard: {target_pos_frac: 0.25, bounds: [0.15, 0.35] }
+    window: 32
+prospective_holdout_plan:
+  scope: all new cooling segments after registered_at_utc
+  success_criteria:
+    - '>=60% Lead@Hit_base > 0'
+    - 'median AUC_base >= 0.60'
+    - 'gauge invariance: sign(Lead@Hit) preserved; Precision non-decreasing under affine'

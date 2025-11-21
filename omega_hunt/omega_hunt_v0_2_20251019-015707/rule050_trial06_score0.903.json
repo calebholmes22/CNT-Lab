@@ -1,0 +1,39 @@
+{
+  "rule_id": 50,
+  "trial": 6,
+  "seed": 10592631,
+  "score": 0.9032743565692618,
+  "glyphness": 0.8356991037635235,
+  "symmetry": 0.0,
+  "recurrence": 0.9964599609375,
+  "compressibility": 0.862060546875,
+  "cohesion": 0.07098029544773443,
+  "alive": 0.41168212890625,
+  "entropy": 0.9773753053233954,
+  "period": 2,
+  "period_sim": 1.0,
+  "invariance": 0.951416015625,
+  "robustness": 1.0,
+  "meta": {
+    "kind": "kernel",
+    "K": [
+      [
+        -2,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        2,
+        -2
+      ]
+    ],
+    "thr_on": 1,
+    "thr_off": -1
+  }
+}

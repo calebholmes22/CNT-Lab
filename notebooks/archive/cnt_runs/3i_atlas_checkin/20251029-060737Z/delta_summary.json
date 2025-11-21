@@ -1,0 +1,10 @@
+{
+  "n_genes_delta": 0,
+  "n_samples_delta": 0,
+  "gini_mean_delta": 0.0,
+  "entropy_mean_delta": 0.0,
+  "cv_mean_delta": 0.0,
+  "changed_samples": false,
+  "added_samples": [],
+  "removed_samples": []
+}

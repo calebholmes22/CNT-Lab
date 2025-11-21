@@ -1,0 +1,24 @@
+{
+  "math": [
+    "State the Pythagorean theorem and give a numeric example.",
+    "Define a prime number and give one example.",
+    "Define circumference of a circle in terms of radius and \u03c0; give r=2 example.",
+    "What is the derivative of x^2? Give the rule name.",
+    "Define a right triangle and the hypotenuse.",
+    "State the distributive property with a short example.",
+    "What is the area of a triangle? Give b=4,h=3 example.",
+    "Define a unit fraction and give one example.",
+    "Express c in a^2 + b^2 = c^2 when a=5,b=12.",
+    "Define a multiple and give one example."
+  ],
+  "policy": [
+    [
+      "policy_01",
+      "Name two benefits and two risks of LLMs in healthcare triage."
+    ],
+    [
+      "cnt_01",
+      "Why does gauge-restored invariance improve safety? Give two benefits and two risks."
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "claim": "ECP lowers thermal jitter (\u03c3 / MAD / SampEn) and advances \u0398 on detrended temps",
+  "n_ritual": 2,
+  "n_control": 6,
+  "mean_sigma_control": 1.0,
+  "mean_sigma_ritual": 1.0,
+  "mean_mad_control": 0.25883700268088466,
+  "mean_mad_ritual": 0.0,
+  "mean_sampen_control": 0.4427572578531682,
+  "mean_sampen_ritual": 0.08285717114301487,
+  "mean_theta_control": 1217.5,
+  "mean_theta_ritual": 127.0,
+  "effect_d_sigma(+good)": NaN,
+  "effect_d_mad(+good)": 1.5324302855335041,
+  "effect_d_sampen(+good)": 2.209012664599157,
+  "effect_d_theta(+good)": 0.7174398647141969,
+  "perm_p_sigma": 1.0,
+  "perm_p_mad": 0.2124,
+  "perm_p_sampen": 0.1073,
+  "perm_p_theta": 0.2526,
+  "pass": false
+}

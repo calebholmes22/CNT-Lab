@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "T": 4000,
+  "window": 200,
+  "obs_dim": 6,
+  "latent_dim": 2,
+  "n_trials": 40,
+  "orth_only": true,
+  "theta_naive_base": 3983,
+  "meta_naive": {
+    "k": 11,
+    "start": 211,
+    "theta_value": 13.105929301976186,
+    "grad": 0.29127387668899285
+  },
+  "theta_gro_base": 2949,
+  "meta_gro": {
+    "k": 11,
+    "start": 211,
+    "theta_value": 0.6459426340215004,
+    "grad": 0.013647870547531804
+  },
+  "pass_flags_naive": {
+    "orth": false,
+    "orth+perm": false,
+    "perm": true
+  },
+  "overall_naive": false,
+  "pass_flags_gro": {
+    "orth": true,
+    "orth+perm": true,
+    "perm": true
+  },
+  "overall_gro": true,
+  "stamp": "20251022-204941Z_1a9f5e66"
+}

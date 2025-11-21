@@ -1,0 +1,12 @@
+{
+  "run_id": "20251031-005557Z_410b5bda",
+  "data": "C:\\Users\\caleb\\CNT_Lab\\artifacts\\tables\\migrated__cnt-eeg-labeled-all__68a51fca.csv",
+  "reason": "no_events_found",
+  "audit": [
+    [
+      "label",
+      0
+    ]
+  ],
+  "decision": "FAIL"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cntlab"
+version = "0.1.0"
+description = "Helper library and conventions for CNT Jupyter workflows"
+authors = [{name="Telos"}, {name="Aetheron"}]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "pyyaml>=6.0.1",
+    "tomli; python_version<'3.11'",
+]
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.7"]
+io = ["pyarrow>=14.0", "fastparquet>=2023.10.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

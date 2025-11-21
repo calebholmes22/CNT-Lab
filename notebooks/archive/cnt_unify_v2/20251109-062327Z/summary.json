@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "artifacts": "E:\\CNT\\notebooks\\archive\\cnt_unify_v2\\20251109-062327Z",
+    "params": {
+      "burn": 5200,
+      "delta": 1.0,
+      "dist": "both",
+      "grid": 41,
+      "omega_reps": 3,
+      "phase_reps": 4,
+      "sigma": 1.0,
+      "steps": 6000,
+      "window": 600
+    },
+    "run": "20251109-062327Z",
+    "versions": {
+      "matplotlib": "3.10.7",
+      "numpy": "2.3.4"
+    }
+  },
+  "modes": [
+    {
+      "K_hint": 1.5957691216057306,
+      "Kc_chi": 1.7457691216057307,
+      "Kc_cross": 1.8357691216057308,
+      "Kc_slope": 1.685769121605731,
+      "beta_128": {
+        "A": NaN,
+        "beta": NaN,
+        "points": 0
+      },
+      "dist": "gauss"
+    },
+    {
+      "K_hint": 2.0,
+      "Kc_chi": 2.42,
+      "Kc_cross": 2.27,
+      "Kc_slope": 2.24,
+      "beta_128": {
+        "A": 0.49956420506328686,
+        "beta": 0.07479011154126536,
+        "points": 11
+      },
+      "dist": "lorentz"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+C:\Users\caleb\CNT_Lab\artifacts\metrics\cnt_fpr_audit_20251016-102546.csv :: EmptyDataError('No columns to parse from file')
+C:\Users\caleb\CNT_Lab\artifacts\tables\migrated__cnt-genomic-resonance-map__df629623.csv :: MemoryError((119716, 119716, 3), dtype('float64'))
+C:\Users\caleb\CNT_Lab\artifacts\tables\migrated__cnt-genomic-resonance-scored-v2__6c4fb256.csv :: MemoryError((119716, 119716, 3), dtype('float64'))
+C:\Users\caleb\CNT_Lab\artifacts\tables\migrated__cnt-genomic-resonance-scored__ab1e21a4.csv :: MemoryError((119716, 119716, 3), dtype('float64'))
+C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_anomaly\cache\gaia_0.0_-49.4_0.8.csv :: EmptyDataError('No columns to parse from file')
+C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_anomaly\cache\gaia_0.0_-50.0_0.8.csv :: EmptyDataError('No columns to parse from file')
+C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_anomaly\cache\gaia_0.0_-50.6_0.8.csv :: EmptyDataError('No columns to parse from file')
+C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_anomaly\out\stable_annotated_20251016-173536.csv :: EmptyDataError('No columns to parse from file')

@@ -1,0 +1,44 @@
+{
+  "path": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_gpu_cooling_log_20251015-123830_labeled.csv",
+  "window": 40,
+  "ref_len": 41,
+  "n_trials": 30,
+  "used_cols": [
+    "t_sec",
+    "draw_watts",
+    "mix_0_1"
+  ],
+  "th_naive": 60,
+  "th_gro": 64,
+  "th_groplus": 63,
+  "pass_naive": {
+    "diag_scale": true,
+    "general_inv": true,
+    "orth": false,
+    "orth+perm": false,
+    "perm": true,
+    "shear": true
+  },
+  "pass_gro": {
+    "diag_scale": true,
+    "general_inv": true,
+    "orth": true,
+    "orth+perm": true,
+    "perm": true,
+    "shear": true
+  },
+  "pass_groplus": {
+    "diag_scale": true,
+    "general_inv": true,
+    "orth": true,
+    "orth+perm": true,
+    "perm": true,
+    "shear": true
+  },
+  "overall": {
+    "naive": false,
+    "gro": true,
+    "groplus": true
+  },
+  "stamp": "20251022-215611Z_8f4d23f3"
+}

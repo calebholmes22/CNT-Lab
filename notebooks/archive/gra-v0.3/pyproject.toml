@@ -1,0 +1,10 @@
+[project]
+name = "gra"
+version = "0.3.0"
+description = "Gauge-Restored Agents: domain-true invariance with restoration and truth/abstain."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["gra"]

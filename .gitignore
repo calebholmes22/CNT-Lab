@@ -1,0 +1,43 @@
+﻿# Python cruft
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter_runtime/
+.jupyter_config/
+
+# CNT lab heavy stuff
+artifacts/
+data/
+downloads/
+logs/
+tmp/
+scratch/
+checkpoints/
+
+# IDE / OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Outputs
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.npz
+*.npy
+*.csv
+*.parquet

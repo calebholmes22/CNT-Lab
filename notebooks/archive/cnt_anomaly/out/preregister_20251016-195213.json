@@ -1,0 +1,13 @@
+{
+  "when": "20251016-195213",
+  "center": [
+    210.0,
+    -0.5
+  ],
+  "tiles": 9,
+  "K_DISC": 3,
+  "K_GOLD": 4,
+  "GOLD_W23_MIN": 1.0,
+  "master": "cnt_anomaly\\out\\stable_anomalies_master_20251016-195213.csv",
+  "enriched": "cnt_anomaly\\out\\stable_enriched_all_20251016-195213.csv",
+  "strict": 

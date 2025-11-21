@@ -1,0 +1,60 @@
+{
+  "forge": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\omega_fused_20251019-123257",
+  "evolution": {
+    "champion": {
+      "K": [
+        [
+          -1,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ],
+      "thr_on": -1,
+      "thr_off": -2,
+      "score": 1.0100159536914908,
+      "meta": {
+        "sym": 0.0,
+        "rec": 0.984375,
+        "comp_norm": 0.9964735243055556,
+        "coh": 3.8815357234418993e-25,
+        "period": 2,
+        "period_sim": 1.0,
+        "entropy": 0.9998238825988728,
+        "alive": 0.4921875,
+        "glyphness": 0.8348403468276515,
+        "invariance": 0.7890625,
+        "robustness": 1.0,
+        "gauge_bonus": 0.8253968253968254
+      }
+    }
+  },
+  "atlas": {
+    "dir": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\omega_fused_20251019-123257\\atlas",
+    "files": [
+      "metrics.csv",
+      "baseline_glyph.svg",
+      "champion_glyph.svg",
+      "period2.png",
+      "robustness.png",
+      "fft.png"
+    ]
+  },
+  "echo": {
+    "dir": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\omega_fused_20251019-123257\\echo",
+    "files": [
+      "omega_echo_results.csv",
+      "omega_echo_top.png"
+    ]
+  },
+  "figure_plate": "C:\\Users\\caleb\\CNT_Lab\\omega_hunt\\omega_hunt_v0_2_20251019-015707\\omega_fused_20251019-123257\\omega_plate.png"
+}

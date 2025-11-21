@@ -1,0 +1,28 @@
+{
+  "timestamp": "20251015-204638",
+  "items": [
+    {
+      "item_id": "policy_01",
+      "domain": "policy-lexeme",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.9430827498435974,
+      "restored_answer": "Benefits:\n- Support\n- Cost\nRisks:\n- Safety\n- Security",
+      "restored_pass": false,
+      "restored_benefits_n": 1,
+      "restored_risks_n": 2
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy-lexeme",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.9460890293121338,
+      "restored_answer": "Benefits:\n- Safety\n- Invar\nRisks:\n- Attack\n- Falseinv",
+      "restored_pass": false,
+      "restored_benefits_n": 1,
+      "restored_risks_n": 0
+    }
+  ],
+  "note": "lexeme coverage gate + restoration"
+}

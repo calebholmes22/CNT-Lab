@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="en"><meta charset="utf-8">
+<head><title>CNT × 3I/ATLAS — Self-Fetching Report</title>
+<style>
+body { font-family: system-ui, -apple-system, Arial, sans-serif; margin: 2rem; line-height: 1.45; }
+h1,h2 { margin: 0.2rem 0 0.6rem; }
+code,pre { background:#f6f8fa; padding:0.2rem 0.4rem; border-radius:6px; }
+table { border-collapse: collapse; margin: 0.8rem 0; }
+td,th { border:1px solid #ddd; padding:6px 10px; }
+.figure { margin:1rem 0; }
+.small { color:#666; font-size:0.9em; }
+</style></head>
+<body>
+<h1>CNT × 3I/ATLAS — Self-Fetching All-8 Report (v1.2)</h1>
+<p class="small">Stamp: 20251024-043646Z | ObsRing mode: <b>basic</b> | n_mc=600</p>
+
+<h2>Alignment</h2>
+<p class="small"><a href="../logs/align_info.json">align_info.json</a> — mode=resampled, N=600, dt=1.0 min</p>
+
+<h2>Θ* Early Warning</h2>
+<p>Alarm: <b>342</b> (thr=1.5, hold=10)</p>
+<div class="figure"><img src="../figs/lightcurve_theta.png" width="740"></div>
+
+<h2>Plasma–Coma Coupling</h2>
+<p>Coherence with FDR-significant bands highlighted. Phase estimate uses peak cross-correlation lag mapped to each frequency.</p>
+<div class="figure"><img src="../figs/plasma_coherence_sig.png" width="740"></div>
+<p class="small"><a href="../tables/plasma_coherence_phase.csv">plasma_coherence_phase.csv</a> | <a href="../tables/plasma_xcorr.csv">plasma_xcorr.csv</a></p>
+
+<h2>Observer-Ring</h2>
+<p><code>{"ok": true, "mode": "basic", "dir_mean_xyz": [0.0, 0.0, 0.9999999999989209], "dir_cov_3x3": [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.14152476348392434]], "n_mc": 600}</code></p>
+
+<h2>Multi-Feature GRA Summary</h2>
+<p class="small"><a href="../tables/gra_summary.csv">gra_summary.csv</a> | <a href="../tables/gra_trials_A.csv">gra_trials_A.csv</a> | <a href="../tables/gra_trials_B.csv">gra_trials_B.csv</a></p>
+
+<h2>Cooling Protocol</h2>
+<p class="small"><a href="../tables/cooling_peaks.csv">cooling_peaks.csv</a> | <a href="../tables/cooling_fits.csv">cooling_fits.csv</a></p>
+
+<h2>Nickel Verdict</h2>
+<p class="small"><a href="../logs/nickel_hypotheses.json">nickel_hypotheses.json</a></p>
+
+<h2>Origin Fingerprint</h2>
+<p class="small"><a href="../logs/field_origin_fingerprint.json">field_origin_fingerprint.json</a></p>
+
+<hr>
+<p class="small">Pack root: <code>cnt_3i_atlas_all8_20251024-043646Z_06ce2e2c</code></p>
+</body></html>

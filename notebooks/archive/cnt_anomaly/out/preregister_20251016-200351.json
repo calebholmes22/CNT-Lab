@@ -1,0 +1,19 @@
+{
+  "when": "20251016-200351",
+  "center": [
+    210.0,
+    -0.5
+  ],
+  "tiles": 9,
+  "K_DISC": 3,
+  "K_GOLD": 4,
+  "GOLD_W23_MIN": 1.0,
+  "GALAXY_MODE": false,
+  "master": "cnt_anomaly\\out\\stable_anomalies_master_20251016-200351.csv",
+  "enriched": "cnt_anomaly\\out\\stable_enriched_all_20251016-200351.csv",
+  "strict": "cnt_anomaly\\out\\stable_enriched_strict_20251016-200351.csv",
+  "relaxed": "cnt_anomaly\\out\\stable_enriched_relaxed_20251016-200351.csv",
+  "gold": "cnt_anomaly\\out\\strict_gold_candidates_20251016-200351.csv",
+  "verify": "cnt_anomaly\\out\\gold_verification_idlocked_20251016-200351.csv",
+  "gallery": "cnt_anomaly\\out\\web\\index_20251016-200351.html"
+}

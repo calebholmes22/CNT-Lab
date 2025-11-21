@@ -1,0 +1,46 @@
+{
+  "logs": [
+    {
+      "status": "missing",
+      "src": "E:\\CNT\\artifacts\\cog_alphabet_report_hybrid_v1\\CALM_Findings_v1_1.pdf"
+    },
+    {
+      "status": "copied",
+      "src": "E:\\CNT\\artifacts\\cog_alphabet_report_hybrid_v1\\analysis\\zoom_S1_summary.json",
+      "dst": "E:\\CNT\\bundles\\cnt_zenodo_20251110-233206\\CALM_v1.1\\analysis\\zoom_S1_summary.json"
+    },
+    {
+      "status": "copied",
+      "src": "E:\\CNT\\artifacts\\cog_alphabet_report_hybrid_v1\\analysis\\zoom_S1_subjects.csv",
+      "dst": "E:\\CNT\\bundles\\cnt_zenodo_20251110-233206\\CALM_v1.1\\analysis\\zoom_S1_subjects.csv"
+    },
+    {
+      "status": "copied",
+      "src": "E:\\CNT\\artifacts\\cog_alphabet_report_hybrid_v1\\analysis\\calm_eval_min.py",
+      "dst": "E:\\CNT\\bundles\\cnt_zenodo_20251110-233206\\CALM_v1.1\\calm_eval_min.py"
+    },
+    {
+      "status": "missing",
+      "src": "E:\\CNT\\artifacts\\cog_alphabet_report_hybrid_v1\\live_decode_demo.py"
+    },
+    {
+      "status": "missing",
+      "src": "E:\\CNT\\artifacts\\cog_alphabet_report_hybrid_v1\\live_panel.py"
+    },
+    {
+      "status": "copied",
+      "src": "E:\\cnt_outpost\\artifacts\\outpost_20251111-030405Z_gridworld_ablate\\gridworld_ablate.png",
+      "dst": "E:\\CNT\\bundles\\cnt_zenodo_20251110-233206\\MPC1_Gridworld\\gridworld_ablate.png"
+    },
+    {
+      "status": "copied",
+      "src": "E:\\cnt_outpost\\artifacts\\outpost_20251111-030405Z_gridworld_ablate\\gridworld_ablate.json",
+      "dst": "E:\\CNT\\bundles\\cnt_zenodo_20251110-233206\\MPC1_Gridworld\\mpc1_results.json"
+    },
+    {
+      "status": "copied_tree",
+      "src": "E:\\CNT\\artifacts\\cnt_fss\\20251110-033047Z-b80f75",
+      "dst": "E:\\CNT\\bundles\\cnt_zenodo_20251110-233206\\CNT_CriticalSuite\\fss_runs"
+    }
+  ]
+}

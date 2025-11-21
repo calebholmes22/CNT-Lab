@@ -1,0 +1,20 @@
+# CNT Flash-Proof v15 — Preregistration (frozen)
+Run ID: 20251031-010621Z_b9085254
+Time: 20251031-010621Z
+Data: C:\Users\caleb\CNT_Lab\artifacts\tables\migrated__cnt-eeg-labeled-all__68a51fca.csv
+
+Events: name='ENERGY(up@q=0.85)' | total_on_full=4
+Derived_used=True | energy_rule={"mode": "ENERGY(up@q=0.85)", "thr": 0.0032973407994512836, "n": 4, "med_sep": 27.0}
+Split: HOLD starts 300.0s before latest event; idx=45; HOLD=[45.0, 487.0]
+
+TRAIN metric fallback: [(31, 20)] → W_train=31
+HOLD metric fallback: [(31, 418)] → W_hold=31
+
+Energy gate (TRAIN-only): gate_q=0.8 → gate_thr=0.0022; reused on HOLD
+Tail chosen: high | FA cap target=0.2/hr | Θ*=4.163886 | TRAIN FA/hr≈0.000
+Persistence=30.0s | Refractory=180.0s
+Lead window: [15.0s, 90.0s] | Permutations=500
+
+**Prediction:** CNT detects ≥65% of events within lead window, median lead ≥15 s, ≤1 FA/hr.
+
+PREDICTIONS_SHA256: b902e27922240eb490755ccdc55bcf6e65576b25495cb46bdb482eb0d9b2cd7f

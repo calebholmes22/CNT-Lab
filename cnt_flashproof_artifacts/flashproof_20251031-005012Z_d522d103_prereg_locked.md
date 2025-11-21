@@ -1,0 +1,25 @@
+# CNT Flash-Proof v10 — Preregistration (frozen)
+Run ID: 20251031-005012Z_d522d103
+Timestamp (UTC): 20251031-005012Z
+Data: C:\Users\caleb\CNT_Lab\artifacts\tables\migrated__cnt-eeg-labeled-all__68a51fca.csv
+
+Time col: __t__ | Label col: label | Features: n=322
+Events (diagnosed): method=boolean, total_on_full=0
+First 3 event times (s): []
+
+Split policy (forced): HOLD starts PREPAD_SEC=300.0s before latest event (clamped).
+Idx chosen=390, event_in_hold=False, hold_time_range=[390.0, 487.0], events_in_hold=0
+
+TRAIN window fallback: tried [(97, 297)] → chosen W_train=97
+HOLD window fallback: tried [(97, 5)] → chosen W_hold=97
+
+Tail (TRAIN only): high
+Θ* from TRAIN-only grid (HIGH [0.98, 0.95, 0.9, 0.85]),
+FA cap ≤ 0.2/hr → Θ*=5.771441 @ q=0.98 (TRAIN FA/hr≈0.000)
+
+Lead window: [0.0s, 90.0s]  |  Refractory: 60.0s
+Permutations: 500
+
+**Prediction:** CNT detects ≥65% of events within the lead window, median lead ≥15 s, ≤1 FA/hr.
+
+PREDICTIONS_SHA256: efc4d27d4d80925aede1403fa2c596f07b6fc613f057324cf9760c6b38476ac1

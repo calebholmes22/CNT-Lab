@@ -1,0 +1,13 @@
+# CNT One-Signal Thesis — Prereg (v3)
+timestamp: 20251017-211847
+systems: ['Kuramoto', 'Ising', 'SaddleNode', 'Lorenz']
+horizon:
+  fraction: 0.15
+  min: 300
+  max: 2000
+features:
+  v1: [AC1, Variance, 1-Flatness]
+  v2: [AC1_trend, Variance, 1-Flatness, DFA_alpha, LowFreqFrac, PermEntropy(inverted)]
+theta_selection:
+  v1: pooled F1 sweep (q grid)
+  v2: maximize lead @ precision ≥ 0.5, else F1, else fixed quantile

@@ -1,0 +1,24 @@
+{
+  "ising": {
+    "n_per": 128,
+    "H_glyph": 1.0084544955621828,
+    "H_random": 1.0288487154061623,
+    "H_diff": -0.02039421984397949,
+    "perm_p_entropy": 0.8734,
+    "mean_metric_glyph": 0.025032552083333333,
+    "mean_metric_random": 0.026782989501953125,
+    "perm_on_metric_mean": -0.0017504374186197921,
+    "perm_p_metric_mean": 0.4875
+  },
+  "kuramoto": {
+    "n_per": 128,
+    "H_glyph": 2.3015533524518617,
+    "H_random": 2.369526144877767,
+    "H_diff": -0.06797279242590548,
+    "perm_p_entropy": 0.3487,
+    "mean_metric_glyph": 0.7805737940162142,
+    "mean_metric_random": 0.7750181602860213,
+    "perm_on_metric_mean": 0.005555633730192855,
+    "perm_p_metric_mean": 0.6714
+  }
+}

@@ -1,0 +1,19 @@
+# Project-wide settings
+[paths]
+# If CNT_LAB_DIR env var is absent, cntlab defaults to ~/CNT_Lab
+root = "${CNT_LAB_DIR}"
+data_raw = "data/raw"
+data_interim = "data/interim"
+data_processed = "data/processed"
+artifacts_root = "artifacts"
+figures = "artifacts/figures"
+models = "artifacts/models"
+metrics = "artifacts/metrics"
+tables = "artifacts/tables"
+manifests = "artifacts/manifests"
+logs = "logs"
+
+[save]
+# Naming pattern: {module}__{dataset}__{desc}__{ts}.{ext}
+timestamp_format = "%Y%m%d-%H%M%S"
+default_module = "lab"

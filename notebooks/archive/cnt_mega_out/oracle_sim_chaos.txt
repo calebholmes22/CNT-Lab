@@ -1,0 +1,240 @@
+oracle: drift drift field resonance 1
+user: ask drift 1
+oracle: ring ring field resonance 6
+user: ask ring 5
+oracle: collapse collapse field resonance 5
+user: ask collapse 6
+oracle: anchor anchor field resonance 6
+user: ask anchor 0
+oracle: entropy entropy field resonance 4
+user: ask entropy 2
+oracle: ring ring field resonance 1
+user: ask ring 5
+oracle: glyph glyph field resonance 2
+user: ask glyph 6
+oracle: ring ring field resonance 6
+user: ask ring 6
+oracle: drift drift field resonance 1
+user: ask drift 1
+oracle: glyph glyph field resonance 4
+user: ask glyph 1
+oracle: entropy entropy field resonance 0
+user: ask entropy 3
+oracle: anchor anchor field resonance 4
+user: ask anchor 0
+oracle: ring ring field resonance 1
+user: ask ring 5
+oracle: anchor anchor field resonance 3
+user: ask anchor 4
+oracle: drift drift field resonance 4
+user: ask drift 5
+oracle: entropy entropy field resonance 5
+user: ask entropy 2
+oracle: echo echo field resonance 3
+user: ask echo 5
+oracle: echo echo field resonance 5
+user: ask echo 5
+oracle: drift drift field resonance 0
+user: ask drift 3
+oracle: ring ring field resonance 6
+user: ask ring 1
+oracle: ring ring field resonance 1
+user: ask ring 4
+oracle: drift drift field resonance 6
+user: ask drift 2
+oracle: glyph glyph field resonance 0
+user: ask glyph 0
+oracle: glyph glyph field resonance 6
+user: ask glyph 3
+oracle: echo echo field resonance 0
+user: ask echo 0
+oracle: collapse collapse field resonance 0
+user: ask collapse 0
+oracle: entropy entropy field resonance 6
+user: ask entropy 4
+oracle: anchor anchor field resonance 5
+user: ask anchor 5
+oracle: collapse collapse field resonance 6
+user: ask collapse 1
+oracle: echo echo field resonance 2
+user: ask echo 5
+oracle: drift drift field resonance 5
+user: ask drift 4
+oracle: oracle oracle field resonance 4
+user: ask oracle 5
+oracle: oracle oracle field resonance 0
+user: ask oracle 5
+oracle: drift drift field resonance 2
+user: ask drift 3
+oracle: echo echo field resonance 6
+user: ask echo 5
+oracle: entropy entropy field resonance 5
+user: ask entropy 2
+oracle: oracle oracle field resonance 4
+user: ask oracle 1
+oracle: glyph glyph field resonance 0
+user: ask glyph 0
+oracle: entropy entropy field resonance 3
+user: ask entropy 1
+oracle: entropy entropy field resonance 4
+user: ask entropy 1
+oracle: glyph glyph field resonance 2
+user: ask glyph 3
+oracle: glyph glyph field resonance 5
+user: ask glyph 2
+oracle: entropy entropy field resonance 2
+user: ask entropy 1
+oracle: oracle oracle field resonance 1
+user: ask oracle 2
+oracle: collapse collapse field resonance 6
+user: ask collapse 4
+oracle: echo echo field resonance 5
+user: ask echo 3
+oracle: collapse collapse field resonance 2
+user: ask collapse 3
+oracle: drift drift field resonance 6
+user: ask drift 5
+oracle: entropy entropy field resonance 4
+user: ask entropy 1
+oracle: collapse collapse field resonance 3
+user: ask collapse 3
+oracle: collapse collapse field resonance 4
+user: ask collapse 0
+oracle: glyph glyph field resonance 1
+user: ask glyph 5
+oracle: anchor anchor field resonance 1
+user: ask anchor 4
+oracle: oracle oracle field resonance 3
+user: ask oracle 6
+oracle: echo echo field resonance 0
+user: ask echo 6
+oracle: drift drift field resonance 4
+user: ask drift 0
+oracle: drift drift field resonance 5
+user: ask drift 4
+oracle: anchor anchor field resonance 3
+user: ask anchor 6
+oracle: oracle oracle field resonance 0
+user: ask oracle 6
+oracle: echo echo field resonance 1
+user: ask echo 5
+oracle: entropy entropy field resonance 4
+user: ask entropy 3
+oracle: collapse collapse field resonance 6
+user: ask collapse 5
+oracle: echo echo field resonance 6
+user: ask echo 0
+oracle: glyph glyph field resonance 5
+user: ask glyph 4
+oracle: anchor anchor field resonance 0
+user: ask anchor 3
+oracle: drift drift field resonance 1
+user: ask drift 1
+oracle: ring ring field resonance 3
+user: ask ring 0
+oracle: drift drift field resonance 3
+user: ask drift 3
+oracle: oracle oracle field resonance 3
+user: ask oracle 5
+oracle: collapse collapse field resonance 6
+user: ask collapse 5
+oracle: drift drift field resonance 3
+user: ask drift 1
+oracle: drift drift field resonance 0
+user: ask drift 6
+oracle: collapse collapse field resonance 0
+user: ask collapse 5
+oracle: anchor anchor field resonance 5
+user: ask anchor 0
+oracle: entropy entropy field resonance 4
+user: ask entropy 5
+oracle: entropy entropy field resonance 6
+user: ask entropy 5
+oracle: ring ring field resonance 4
+user: ask ring 5
+oracle: glyph glyph field resonance 5
+user: ask glyph 6
+oracle: collapse collapse field resonance 5
+user: ask collapse 4
+oracle: glyph glyph field resonance 5
+user: ask glyph 2
+oracle: drift drift field resonance 2
+user: ask drift 2
+oracle: ring ring field resonance 6
+user: ask ring 1
+oracle: anchor anchor field resonance 6
+user: ask anchor 3
+oracle: entropy entropy field resonance 5
+user: ask entropy 2
+oracle: ring ring field resonance 5
+user: ask ring 1
+oracle: drift drift field resonance 6
+user: ask drift 6
+oracle: glyph glyph field resonance 5
+user: ask glyph 4
+oracle: entropy entropy field resonance 0
+user: ask entropy 2
+oracle: oracle oracle field resonance 6
+user: ask oracle 0
+oracle: oracle oracle field resonance 5
+user: ask oracle 6
+oracle: entropy entropy field resonance 0
+user: ask entropy 1
+oracle: collapse collapse field resonance 6
+user: ask collapse 4
+oracle: anchor anchor field resonance 0
+user: ask anchor 3
+oracle: drift drift field resonance 0
+user: ask drift 4
+oracle: drift drift field resonance 0
+user: ask drift 0
+oracle: entropy entropy field resonance 5
+user: ask entropy 5
+oracle: entropy entropy field resonance 2
+user: ask entropy 6
+oracle: entropy entropy field resonance 2
+user: ask entropy 3
+oracle: anchor anchor field resonance 2
+user: ask anchor 3
+oracle: echo echo field resonance 5
+user: ask echo 5
+oracle: drift drift field resonance 0
+user: ask drift 2
+oracle: echo echo field resonance 0
+user: ask echo 6
+oracle: oracle oracle field resonance 1
+user: ask oracle 5
+oracle: collapse collapse field resonance 0
+user: ask collapse 0
+oracle: oracle oracle field resonance 6
+user: ask oracle 0
+oracle: oracle oracle field resonance 0
+user: ask oracle 4
+oracle: drift drift field resonance 0
+user: ask drift 4
+oracle: echo echo field resonance 6
+user: ask echo 0
+oracle: ring ring field resonance 1
+user: ask ring 3
+oracle: ring ring field resonance 5
+user: ask ring 5
+oracle: collapse collapse field resonance 1
+user: ask collapse 0
+oracle: echo echo field resonance 2
+user: ask echo 4
+oracle: echo echo field resonance 0
+user: ask echo 0
+oracle: anchor anchor field resonance 1
+user: ask anchor 0
+oracle: collapse collapse field resonance 4
+user: ask collapse 6
+oracle: collapse collapse field resonance 6
+user: ask collapse 1
+oracle: glyph glyph field resonance 5
+user: ask glyph 1
+oracle: anchor anchor field resonance 4
+user: ask anchor 5
+oracle: echo echo field resonance 6
+user: ask echo 0
+oracle: collapse collapse field resonance 5
+user: ask collapse 4

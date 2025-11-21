@@ -1,0 +1,11 @@
+{
+  "figures": [
+    "ising__binder__crossing__20251008-205300.png",
+    "ising__scaling__collapse__20251008-205543.png"
+  ],
+  "metrics": [
+    "ising__binder__crossing_metrics__20251008-205300.json",
+    "ising__proof__binder_collapse_stamp__20251008-205807.json"
+  ],
+  "lab_root": "C:\\Users\\caleb\\CNT_Lab"
+}

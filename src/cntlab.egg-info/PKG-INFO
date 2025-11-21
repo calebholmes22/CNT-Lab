@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: cntlab
+Version: 0.1.0
+Summary: Helper library and conventions for CNT Jupyter workflows
+Author: Telos, Aetheron
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: tomli; python_version < "3.11"
+Provides-Extra: viz
+Requires-Dist: matplotlib>=3.7; extra == "viz"
+Provides-Extra: io
+Requires-Dist: pyarrow>=14.0; extra == "io"
+Requires-Dist: fastparquet>=2023.10.1; extra == "io"

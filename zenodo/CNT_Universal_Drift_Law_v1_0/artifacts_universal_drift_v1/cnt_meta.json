@@ -1,0 +1,14 @@
+{
+  "tool": "cnt_universal_drift_v1",
+  "version": "v1",
+  "run_id": "20251116-160912Z",
+  "recorded_at": "2025-11-16T17:03:39Z",
+  "dataset": "CALM+KURAMOTO+MARKETS+THERMAL",
+  "notes": "Universal Drift v1 \u2014 backfilled from analyzer log",
+  "tags": [
+    "drift",
+    "universal",
+    "law",
+    "backfill"
+  ]
+}

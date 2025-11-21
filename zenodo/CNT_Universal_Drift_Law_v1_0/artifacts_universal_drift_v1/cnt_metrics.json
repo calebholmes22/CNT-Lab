@@ -1,0 +1,5 @@
+{
+  "drift_alpha_short_mean": 0.595,
+  "drift_alpha_long_mean": 0.607,
+  "hazard_alpha_short_mean": 1.023
+}

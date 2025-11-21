@@ -1,0 +1,27 @@
+{
+  "best_ising": {
+    "system": "ising",
+    "beta": 0.4457,
+    "K": NaN,
+    "H_glyph": 1.3148097888030201,
+    "H_random": 1.4612682117859375,
+    "H_diff": -0.14645842298291734,
+    "p_entropy": 0.16955,
+    "mean_g": 0.0278167724609375,
+    "mean_r": 0.03443145751953125
+  },
+  "best_kuramoto": {
+    "system": "kuramoto",
+    "beta": NaN,
+    "K": 2.5,
+    "H_glyph": 2.138611121904332,
+    "H_random": 2.215222460483547,
+    "H_diff": -0.0766113385792151,
+    "p_entropy": 0.2803,
+    "mean_g": 0.8655586270847131,
+    "mean_r": 0.8553475021852082
+  },
+  "csv": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\pg_funnel_v3_1sweep_20251025-134207_9680eb61\\pg_funnel_v3_1_sweep_results.csv",
+  "artifacts": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\pg_funnel_v3_1sweep_20251025-134207_9680eb61",
+  "pass_rule": "Target a candidate with H_diff < 0 and p_entropy < 0.10 in the sweep. Then rerun ONLY that setting with N_PER=256\u2013512 to drive p<0.05."
+}

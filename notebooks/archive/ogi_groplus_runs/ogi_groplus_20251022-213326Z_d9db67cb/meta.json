@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "T": 4000,
+  "window": 200,
+  "obs_dim": 6,
+  "latent_dim": 2,
+  "n_trials": 40,
+  "ref_len": 600,
+  "theta_naive_base": 3983,
+  "meta_naive": {
+    "k": 11,
+    "start": 211,
+    "theta_value": 13.10592930457284,
+    "grad": 0.2912738767449179
+  },
+  "theta_gro_base": 2949,
+  "meta_gro": {
+    "k": 11,
+    "start": 211,
+    "theta_value": 0.6459426334952698,
+    "grad": 0.013647870533687767
+  },
+  "theta_groplus_base": 3232,
+  "meta_groplus": {
+    "k": 11,
+    "start": 211,
+    "theta_value": 2.0601187120400577,
+    "grad": 0.08132190172671838
+  },
+  "pass_flags_naive": {
+    "diag_scale": true,
+    "general_inv": false,
+    "orth": false,
+    "orth+perm": false,
+    "perm": true,
+    "shear": false
+  },
+  "overall_naive": false,
+  "pass_flags_gro": {
+    "diag_scale": false,
+    "general_inv": false,
+    "orth": true,
+    "orth+perm": true,
+    "perm": true,
+    "shear": false
+  },
+  "overall_gro": false,
+  "pass_flags_groplus": {
+    "diag_scale": true,
+    "general_inv": true,
+    "orth": true,
+    "orth+perm": true,
+    "perm": true,
+    "shear": true
+  },
+  "overall_groplus": true,
+  "stamp": "20251022-213326Z_d9db67cb"
+}

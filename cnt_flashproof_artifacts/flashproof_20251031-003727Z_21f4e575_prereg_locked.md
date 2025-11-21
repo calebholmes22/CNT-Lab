@@ -1,0 +1,23 @@
+# CNT Flash-Proof v7 — Preregistration (frozen)
+Run ID: 20251031-003727Z_21f4e575
+Timestamp (UTC): 20251031-003727Z
+Data: C:\Users\caleb\CNT_Lab\artifacts\tables\migrated__cnt-eeg-labeled-all__68a51fca.csv
+Time col: __t__ | Label col: label | Features: n=322
+Metric: agiew_spectral_entropy | Desired W=97 | Smooth=7
+TRAIN window fallback (predeclared): ensure ≥ 10 finite TRAIN metrics.
+Tried (W, finite) = [(58, 10)]; chosen W_eff = 58
+Split scan (predeclared): splits 0.99→0.001 (199 steps), clamped to
+MIN_TRAIN_ROWS=64, MIN_HOLD_ROWS=64.
+Scan log (first 10): [(np.float64(0.99), 424, 0), (np.float64(0.985005), 424, 0), (np.float64(0.98001), 424, 0), (np.float64(0.975015), 424, 0), (np.float64(0.97002), 424, 0), (np.float64(0.965025), 424, 0), (np.float64(0.96003), 424, 0), (np.float64(0.955035), 424, 0), (np.float64(0.95004), 424, 0), (np.float64(0.945045), 424, 0)] ... total 199 checked.
+Chosen split (scan): 0.001000 (idx=64); events_in_hold after scan = 0
+Fallback policy (predeclared): if scan yields no events in hold, choose event-targeted split placing the latest event into hold while
+respecting MIN_TRAIN_ROWS & MIN_HOLD_ROWS. Used fallback? False
+Tail (TRAIN only): low
+Θ* from TRAIN-only grid (LOW [0.02, 0.05, 0.1, 0.15, 0.2]),
+with FA cap on TRAIN ≤ 0.5/hr → Θ*=4.430893 @ q=0.02 (TRAIN FA/hr ≈ 0.000)
+Lead window: [15.0s, 90.0s]; Refractory: 30.0s
+Permutations: 500
+
+**Prediction:** On the chosen holdout, CNT will detect ≥ 65% of events within the lead window, with median lead ≥ 15 s, and ≤ 1 FA/hr.
+
+PREDICTIONS_SHA256: 07847223000bb3aab5e14e922e4b915f9d739d9a2594210557e2bf0cbb4471a6

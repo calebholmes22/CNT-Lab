@@ -1,0 +1,35 @@
+{
+  "claim": "ECP reduces residual thermal jitter and advances \u0398 (paired analysis)",
+  "pairs": 0,
+  "passed": false,
+  "metrics": [
+    {
+      "sigma": {
+        "mean_ritual": 0.3035268943923454,
+        "mean_control": NaN,
+        "paired_n": 0
+      }
+    },
+    {
+      "mad_diff": {
+        "mean_ritual": 0.12766769046781049,
+        "mean_control": NaN,
+        "paired_n": 0
+      }
+    },
+    {
+      "sampen": {
+        "mean_ritual": 0.2952864939403439,
+        "mean_control": NaN,
+        "paired_n": 0
+      }
+    },
+    {
+      "theta": {
+        "mean_ritual": 139.6,
+        "mean_control": NaN,
+        "paired_n": 0
+      }
+    }
+  ]
+}

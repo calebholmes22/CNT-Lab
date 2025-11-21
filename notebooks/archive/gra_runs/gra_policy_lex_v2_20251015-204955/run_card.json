@@ -1,0 +1,30 @@
+{
+  "timestamp": "20251015-204955",
+  "items": [
+    {
+      "item_id": "policy_01",
+      "domain": "policy-lexeme-v2",
+      "raw_gate_metric": 0.0,
+      "threshold": 0.7,
+      "postrestore_gate": 0.0,
+      "secondary_sem": 0.9430827498435974,
+      "restored_answer": "Benefits:\n- clinical decision\nRisks:\n- cybersecurity",
+      "restored_pass": false,
+      "restored_benefits_n": 1,
+      "restored_risks_n": 1
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy-lexeme-v2",
+      "raw_gate_metric": 0.0,
+      "threshold": 0.7,
+      "postrestore_gate": 0.0,
+      "secondary_sem": 0.9460890293121338,
+      "restored_answer": "Benefits:\n- invariance to rewording\nRisks:\n- spurious invariance",
+      "restored_pass": false,
+      "restored_benefits_n": 1,
+      "restored_risks_n": 1
+    }
+  ],
+  "note": "lexeme coverage v2 + post-restore gate"
+}

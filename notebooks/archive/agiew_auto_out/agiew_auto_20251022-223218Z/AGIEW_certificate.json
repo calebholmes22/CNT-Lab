@@ -1,0 +1,49 @@
+{
+  "law": "AGIEW \u2014 Affine Gauge-Invariant Early Warning",
+  "source_path": "C:\\Users\\caleb\\CNT_Lab\\artifacts\\tables\\migrated__cnt-eeg-labeled-all__68a51fca.csv",
+  "rows": 488,
+  "dims": 321,
+  "window": 97,
+  "ref_len": 146,
+  "theta": {
+    "naive": 106,
+    "gro": 245,
+    "groplus": 214
+  },
+  "pass_flags": {
+    "naive": {
+      "diag_scale": true,
+      "general_inv": false,
+      "orth": false,
+      "orth+perm": false,
+      "perm": true,
+      "shear": false
+    },
+    "gro": {
+      "diag_scale": true,
+      "general_inv": true,
+      "orth": true,
+      "orth+perm": true,
+      "perm": true,
+      "shear": true
+    },
+    "groplus": {
+      "diag_scale": true,
+      "general_inv": true,
+      "orth": true,
+      "orth+perm": false,
+      "perm": true,
+      "shear": true
+    }
+  },
+  "overall": {
+    "naive": false,
+    "gro": true,
+    "groplus": false
+  },
+  "S_inv": {
+    "naive": 0.0,
+    "gro": 1.0,
+    "groplus": 1.0
+  }
+}

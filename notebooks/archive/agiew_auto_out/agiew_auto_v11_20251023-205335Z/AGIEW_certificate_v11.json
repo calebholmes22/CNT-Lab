@@ -1,0 +1,43 @@
+{
+  "law": "AGIEW \u2014 Affine Gauge-Invariant Early Warning (v1.1 robust \u0398*)",
+  "rows": 488,
+  "dims": 321,
+  "window": 97,
+  "ref_len": 146,
+  "theta_robust": {
+    "naive": 106,
+    "gro": 240,
+    "groplus": 212
+  },
+  "passes_q95": {
+    "naive": {
+      "diag_scale": true,
+      "general_inv": false,
+      "orth": false,
+      "orth+perm": false,
+      "perm": true,
+      "shear": false
+    },
+    "gro": {
+      "diag_scale": true,
+      "general_inv": true,
+      "orth": true,
+      "orth+perm": true,
+      "perm": true,
+      "shear": true
+    },
+    "groplus": {
+      "diag_scale": true,
+      "general_inv": true,
+      "orth": true,
+      "orth+perm": true,
+      "perm": true,
+      "shear": true
+    }
+  },
+  "overall": {
+    "naive": false,
+    "gro": true,
+    "groplus": true
+  }
+}

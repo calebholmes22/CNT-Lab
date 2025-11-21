@@ -1,0 +1,26 @@
+[
+  {
+    "controller": "baseline",
+    "success_rate": 0.05,
+    "median_steps": 60.0,
+    "nav_rate": 34.47
+  },
+  {
+    "controller": "mpc1_a0.06",
+    "success_rate": 0.98,
+    "median_steps": 7.5,
+    "nav_rate": 5.26
+  },
+  {
+    "controller": "mpc1_a0.08",
+    "success_rate": 0.98,
+    "median_steps": 7.0,
+    "nav_rate": 4.97
+  },
+  {
+    "controller": "mpc1_a0.10",
+    "success_rate": 0.99,
+    "median_steps": 8.0,
+    "nav_rate": 5.27
+  }
+]

@@ -1,0 +1,10 @@
+== Ω v0.4 Truth Audit ==
+champion: C:\Users\caleb\CNT_Lab\omega_hunt\omega_hunt_v0_2_20251019-015707\omega_fused_20251019-123257\omega_v0_4_20251020-223420\champion_v0_4.json
+mean_basin: 0.2838888888888889
+min_basin: 0.0
+worst_case: bc=wrap mode=sync density=0.24 noise=0.02 basin=0.00
+d4_dynamics_mean: 0.8797810872395834
+translation_mean: 0.88055419921875
+threshold_min: 0.0
+threshold_mean: 0.5714285714285714
+mutation_stability: 1.0

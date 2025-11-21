@@ -1,0 +1,45 @@
+== CNT One-Signal Thesis — Unified Verdict (v3.1) ==
+Run dir: C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_one_signal_20251017-213346
+
+V1 (classic):
+ - REWS beats baselines in: 0.0% of systems
+ - Median lead time @ Θ(q=0.85): 4137 samples
+
+V2 (chaos-aware, precision≥0.50 target):
+ - Systems achieving precision floor (or fallback): 0.0%
+ - Median lead time @ Θ₂: 3623 samples
+
+-- V1 AUCs --
+    system  AUC_REWS AUC_Variance AUC_AC1 AUC_1-Flatness  LeadTime_at_Θ(q=0.85)
+  Kuramoto    0.5189                                                       1900
+     Ising    0.5184                                                       4949
+SaddleNode    0.3598                                                       3399
+    Lorenz    0.4905                                                       4876
+
+-- V2 AUCs/Θ₂ --
+    system  AUC_REWS2  AUC_Variance  AUC_AC1trend  AUC_1-Flatness  Theta2  Lead_at_Theta2  Precision_at_Theta2  Horizon_used
+  Kuramoto     0.5014        0.4487        0.5024          0.5184  0.6879            1652                0.260           750
+     Ising     0.5401        0.4962        0.4929          0.5269  0.5336            4498                0.177           900
+SaddleNode     0.4677        0.6692        0.5490          0.4059  0.4858            3099                0.135           900
+    Lorenz     0.5149        0.4659        0.4884          0.4914  0.5071            4148                0.166          1200
+
+> CNT-Gloss (2025-10-26T21:33:20Z): Clarify hypothesis; add test recipe & falsifier.
+- Hypothesis: …
+- Measurement: …
+- Expected shift: …
+- Falsifier: …
+
+```cnt-test
+name: test_summary
+type: csv_threshold
+path: E:\CNT\artifacts\CNT_PLI_EC_EO_paired_bootstrap.csv
+column: N_pairs
+op: '>'
+value: 27.0
+agg: mean
+gold: true
+frozen_at: '2025-10-26T21:54:43Z'
+hash: 40b4797ed6849bbb54f8a98c3dcd4de973cc29389cc56ebe4ce76dca8506b4aa
+rows: 15
+skip: true
+```

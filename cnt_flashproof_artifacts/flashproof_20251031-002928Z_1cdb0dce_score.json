@@ -1,0 +1,21 @@
+{
+  "run_id": "20251031-002928Z_1cdb0dce",
+  "data": "C:\\Users\\caleb\\CNT_Lab\\artifacts\\tables\\migrated__cnt-eeg-labeled-all__68a51fca.csv",
+  "split": 0.05,
+  "W_eff": 13,
+  "smooth": 7,
+  "metric": "agiew_spectral_entropy",
+  "tail": "low",
+  "theta_star": 4.643157233155411,
+  "events_n": 0,
+  "breaches_n": 15,
+  "detection_rate": 0.0,
+  "median_lead_s": null,
+  "false_alarms_per_hr": 116.63066954643628,
+  "perm_p_value": 1.0,
+  "decision": "FAIL",
+  "predictions_csv": "cnt_flashproof_artifacts\\flashproof_20251031-002928Z_1cdb0dce_predictions.csv",
+  "prereg": "cnt_flashproof_artifacts\\flashproof_20251031-002928Z_1cdb0dce_prereg.md",
+  "prereg_locked": "cnt_flashproof_artifacts\\flashproof_20251031-002928Z_1cdb0dce_prereg_locked.md",
+  "predictions_sha256": "d41425f35bcd6671a5cc6d5a7070caf38ba5fc65cd57c0d917f9927db8ed9519"
+}

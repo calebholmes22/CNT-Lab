@@ -1,0 +1,55 @@
+{
+  "bestS": 0.7517166791434917,
+  "bestK": [
+    [
+      -1,
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -2,
+      1
+    ],
+    [
+      0,
+      -1,
+      0,
+      -2,
+      0
+    ],
+    [
+      -2,
+      -2,
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      0,
+      -1,
+      -1,
+      0
+    ]
+  ],
+  "thr_on_on": 0,
+  "thr_off_off": -1,
+  "bestM": {
+    "glyph_sync": 0.9106158392460714,
+    "trans_sync": 0.979736328125,
+    "pass_sync": 1,
+    "pass_checker": 0,
+    "pass_checker_paired": 0,
+    "glyph_block": 0.9360288983043495,
+    "pass_block": 1,
+    "basin_block": 0.5,
+    "basin_checker_paired": 0.0,
+    "score": 0.7517166791434917
+  },
+  "gen": 12
+}

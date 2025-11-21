@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "T": 4000,
+  "window": 200,
+  "obs_dim": 6,
+  "latent_dim": 2,
+  "n_trials": 40,
+  "orth_only": true,
+  "base_theta": 3983,
+  "base_meta": {
+    "k": 11,
+    "start": 211,
+    "theta_value": 13.105929301976186,
+    "grad": 0.29127387668899285
+  },
+  "pass_flags": {
+    "orth": false,
+    "orth+perm": false,
+    "perm": true
+  },
+  "overall_pass": false,
+  "stamp": "20251022-192646Z_2c86782b"
+}

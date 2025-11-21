@@ -1,0 +1,135 @@
+== CNT Correlates Audit (Fused) ==
+Timestamp: 20251015-164130
+
+- Cooling logs: 8
+- Cosmo triage tables: 1
+- EEG laterality tables: 2
+- Kuramoto/Ising summaries: 0
+- Kuramoto dispersion CSVs: 0
+- Gray-Scott edge images: 1
+- Scanned logs/text: 50
+- Glyph label tables: 0
+
+== Results ==
+[GREY] Cooling: Temp oscillation amplitude predicts clock stability
+  Need logs with GPU temp + GPU clock columns.
+  Add both fields to your CSVs.
+
+[GREY] EEG: Laterality (|μ|/|β|) robustly separates motor vs rest
+  No lap_erd laterality tables found.
+  Export lap_erd_subject*.csv.
+
+[RED] Cosmo triage: T-statistics favor a_peak over a_corr/a_len
+  'a_peak' rank-advantage score = 0.00 from 6 regressions.
+  Higher means T-statistics better explain a_peak.
+
+[GREY] Cross-model echo: Kuramoto onset sharpness predicts Ising FSS crispness
+  Need Kuramoto (Kc_est/beta_fit) and Ising (crossing_spread/beta_over_nu) summaries.
+  Save json/csv summaries for both.
+
+[YELLOW] Morphology→Dynamics: Gray-Scott edge density predicts Kuramoto dispersion near Kc
+  Edge density ~ 1.000; no Kuramoto dispersion CSV found.
+  Export seed,K,R near K≈Kc as 'kuramoto_dispersion.csv'.
+
+[GREY] Cooling economics: smaller, frequent steps yield better ΔT per energy
+  Spearman ρ=nan (p=nan); N=2. (auto stepiness detector)
+  Positive ρ supports the claim; guards avoid constant-input errors.
+
+[GREY] Brittleness sentinel: constant-input warnings forecast spurious correlations
+  No ConstantInputWarning logs found.
+  If they appear, we’ll cross-check.
+
+[GREY] EEG laterality magnitude predicts glyph label stability
+  Need laterality tables + glyph label time-series.
+  Export per-session glyph labels (time windows) with session_id.
+
+== Used Files (subset) ==
+- C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_ch_slope_triage\ch_triage_timeseries.csv
+- C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_gpu_cooling_log_20251015-122141.csv
+- C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_gpu_cooling_log_20251015-123830.csv
+- C:\Users\caleb\cnt_genome\cnt_mega_out\topo_edge_grayscott.png
+\n\n> CNT-Gloss (2025-10-26T21:18:00Z): Clarify hypothesis; add test recipe & falsifier.\n- Hypothesis: …\n- Measurement: …\n- Expected shift: …\n- Falsifier: …\n
+
+> CNT-Gloss (2025-10-26T21:29:12Z): Clarify hypothesis; add test recipe & falsifier.
+- Hypothesis: …
+- Measurement: …
+- Expected shift: …
+- Falsifier: …
+
+
+```cnt-test
+name: test_cnt_correlates_report_20251015-164130
+inputs: []
+recipe:
+  - step: load_data
+    path: <fill_me>
+  - step: compute_metric
+    code: <python or pseudo>
+  - step: assert
+    expect: <delta_theta> > 0 and p < 0.05
+```
+
+> CNT-Gloss (2025-10-26T21:31:49Z): Clarify hypothesis; add test recipe & falsifier.
+- Hypothesis: …
+- Measurement: …
+- Expected shift: …
+- Falsifier: …
+
+```cnt-test
+name: test_cnt_correlates_report_20251015-164130
+type: csv_threshold
+path: E:\CNT\artifacts\CNT_PLI_EC_EO_paired_bootstrap.csv
+column: N_pairs
+op: '>'
+value: 27.0
+agg: mean
+gold: true
+frozen_at: '2025-10-26T21:54:43Z'
+hash: 40b4797ed6849bbb54f8a98c3dcd4de973cc29389cc56ebe4ce76dca8506b4aa
+rows: 15
+skip: true
+```
+
+
+> CNT-Gloss (2025-10-26T21:33:20Z): Clarify hypothesis; add test recipe & falsifier.
+- Hypothesis: …
+- Measurement: …
+- Expected shift: …
+- Falsifier: …
+
+```cnt-test
+name: test_cnt_correlates_report_20251015-164130
+type: csv_threshold
+path: E:\CNT\artifacts\CNT_PLI_EC_EO_paired_bootstrap.csv
+column: N_pairs
+op: '>'
+value: 27.0
+agg: mean
+gold: true
+frozen_at: '2025-10-26T21:54:43Z'
+hash: 40b4797ed6849bbb54f8a98c3dcd4de973cc29389cc56ebe4ce76dca8506b4aa
+rows: 15
+skip: true
+```
+
+
+> CNT-Gloss (2025-10-26T21:37:58Z): Clarify hypothesis; add test recipe & falsifier.
+- Hypothesis: …
+- Measurement: …
+- Expected shift: …
+- Falsifier: …
+
+```cnt-test
+name: test_cnt_correlates_report_20251015-164130
+type: csv_threshold
+path: E:\CNT\artifacts\CNT_PLI_EC_EO_paired_bootstrap.csv
+column: N_pairs
+op: '>'
+value: 27.0
+agg: mean
+gold: true
+frozen_at: '2025-10-26T21:54:43Z'
+hash: 40b4797ed6849bbb54f8a98c3dcd4de973cc29389cc56ebe4ce76dca8506b4aa
+rows: 15
+skip: true
+```

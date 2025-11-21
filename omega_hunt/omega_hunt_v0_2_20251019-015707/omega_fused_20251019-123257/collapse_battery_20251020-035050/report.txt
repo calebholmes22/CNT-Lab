@@ -1,0 +1,17 @@
+== Ω Collapse Battery v1 ==
+nan: 0
+triviality_flag: False
+period: 2
+period_sim: 0.99786376953125
+anisotropy: 9.084923112766138
+n_components: 189
+comp_cv: 0.6448449112595501
+d4_isomorphism: 0.5546875
+invariance_parity: 0.98687744140625
+invariance_mid: 0.9859619140625
+basin_mean: 0.5439814814814815
+basin_min: 0.0
+stability_radius: 0.3333333333333333
+scheme_sync: 0.5
+scheme_checker: 0.0
+scheme_async: 0.0

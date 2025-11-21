@@ -1,0 +1,19 @@
+{
+  "claim": "Electroglyph Cooling Protocol lowers thermal variance / entropy and advances \u0398",
+  "n_ritual": 2,
+  "n_control": 6,
+  "mean_sigma_control": 136441050.1543091,
+  "mean_sigma_ritual": 0.0,
+  "mean_sent_control": 0.5184610990357222,
+  "mean_sent_ritual": 0.0,
+  "mean_theta_control": 157.66666666666666,
+  "mean_theta_ritual": 31.0,
+  "effect_cohen_d_sigma(+ = good)": 0.447213595499958,
+  "effect_cohen_d_sent(+ = good)": 0.7058541335628746,
+  "effect_cohen_d_theta(+ = good)": 0.5667621969998036,
+  "perm_p_sigma": 1.0,
+  "perm_p_sent": 0.6048,
+  "perm_p_theta": 0.6056,
+  "autobal_applied": true,
+  "pass": false
+}

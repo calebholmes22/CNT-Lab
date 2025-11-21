@@ -1,0 +1,30 @@
+{
+  "timestamp": "20251015-202503",
+  "items": [
+    {
+      "item_id": "math_01",
+      "domain": "math",
+      "gate_metric": 1.0,
+      "threshold": 0.9,
+      "secondary_sem": 0.8029150366783142,
+      "passed": true
+    },
+    {
+      "item_id": "policy_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.9453120231628418,
+      "passed": false
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.9460890293121338,
+      "passed": false
+    }
+  ],
+  "note": "GRA v0.1 domain-aware batch"
+}

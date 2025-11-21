@@ -1,0 +1,63 @@
+{
+  "timestamp": "20251015-213011",
+  "items": [
+    {
+      "item_id": "math_01",
+      "domain": "math",
+      "gate_metric": 1.0,
+      "threshold": 0.9,
+      "secondary_sem": 0.7996156215667725,
+      "restored_answer": "In a right triangle, the square of the hypotenuse equals the sum of the squares of the legs (a^2 + b^2 = c^2). Example: a=3, b=4, c=5 (since 3^2 + 4^2 = 9 + 16 = 25 = 5^2).",
+      "restored_note": "majority structure or canonical",
+      "postrestore_gate": 1.0,
+      "passed": true,
+      "contract_pass": true,
+      "truth_pass": true
+    },
+    {
+      "item_id": "policy_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.9430827498435974,
+      "restored_answer": "Benefits:\n- faster triage\n- 24/7 access\nRisks:\n- hallucinations\n- bias and fairness",
+      "restored_note": "deterministic 2\u00d72",
+      "restored_benefits_n": 2,
+      "restored_risks_n": 2,
+      "postrestore_gate": 1.0,
+      "passed": false,
+      "contract_pass": true,
+      "truth_pass": null
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.9460890293121338,
+      "restored_answer": "Benefits:\n- invariance to rewording\n- safety guardrail\nRisks:\n- over-constraint\n- false invariance",
+      "restored_note": "deterministic 2\u00d72",
+      "restored_benefits_n": 2,
+      "restored_risks_n": 2,
+      "postrestore_gate": 1.0,
+      "passed": false,
+      "contract_pass": true,
+      "truth_pass": null
+    },
+    {
+      "item_id": "mcq_01",
+      "domain": "mcq",
+      "gate_metric": 0.42857142857142855,
+      "threshold": 0.9,
+      "secondary_sem": null,
+      "restored_answer": "ABSTAIN: insufficient consensus",
+      "restored_note": "abstained",
+      "postrestore_gate": 0.0,
+      "passed": false,
+      "contract_pass": false,
+      "truth_pass": false,
+      "maj_frac": 0.5
+    }
+  ],
+  "note": "GRA v0.2 (consistency + correctness)"
+}

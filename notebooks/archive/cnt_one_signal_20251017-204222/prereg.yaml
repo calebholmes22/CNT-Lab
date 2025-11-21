@@ -1,0 +1,21 @@
+# CNT One-Signal Thesis — Preregistration
+version: v2-fused
+timestamp: 20251017-204222
+hypotheses:
+  - H1: REWS2 (median-of-ranks composite) yields earlier warnings than classics at precision >= 0.6.
+  - H2: A single Θ2 per system selected under precision constraint delivers stable median lead-time across regimes.
+metrics:
+  - AUCs: REWS, Variance, AC1/AC1trend, 1-Flatness, REWS2
+  - Θ/Θ2 selection: pooled quantile sweep / constrained by precision
+  - LeadTime: samples between first threshold crossing and early-warning window start
+systems: ['Kuramoto', 'Ising', 'Logistic', 'Lorenz']
+windows:
+  rolling_min: 64
+  rolling_max: 256
+horizon:
+  fraction: 0.15
+  min: 300
+  max: 2000
+logs:
+  patterns: ['C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_gpu_cooling_log_*.csv', 'C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_unified_cooling_*.csv', 'C:\\Users\\caleb\\CNT_Lab\\artifacts\\pli_humans_100plus\\**\\*.csv', 'C:\\Users\\caleb\\CNT_Lab\\**\\*cooling*.csv']
+  max_logs: 8

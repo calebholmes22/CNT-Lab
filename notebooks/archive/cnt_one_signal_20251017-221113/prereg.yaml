@@ -1,0 +1,9 @@
+# CNT One-Signal — Prereg (v3.2)
+timestamp: 20251017-221113
+systems: ['Kuramoto', 'Ising', 'SaddleNode', 'Lorenz']
+labels: {fraction: 0.2, min: 400, max: 2000}
+v1_features: [AC1, Variance, 1-Flatness]
+v2_features: [AC1_trend, Variance, 1-Flatness, DFA_alpha, LowFreqFrac, PermEntropy(inverted)]
+v2_params: {ema_alpha: 0.1, hysteresis: 5-of-7, precision_floor: 0.55}
+theta: {v1: pooled F1 sweep, v2: utility(lead/(1+0.002*alarm_len)) at precision floor → F1 → fixed quantile}
+roots: [WindowsPath('C:/Users/caleb/CNT_Lab/notebooks/archive'), WindowsPath('C:/Users/caleb/CNT_Lab')]

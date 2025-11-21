@@ -1,0 +1,30 @@
+{
+  "rule_id": 82,
+  "trial": 1,
+  "seed": 10595670,
+  "score": 0.8832927490381292,
+  "glyphness": 0.8031530616670646,
+  "symmetry": 0.0,
+  "recurrence": 0.99735107421875,
+  "compressibility": 0.8900010850694444,
+  "cohesion": 0.007912485899816175,
+  "alive": 0.10272216796875,
+  "entropy": 0.477565741891665,
+  "period": 12,
+  "period_sim": 1.0,
+  "invariance": 0.984375,
+  "robustness": 0.9320185910229843,
+  "meta": {
+    "kind": "lifelike",
+    "birth": [
+      4,
+      8
+    ],
+    "survive": [
+      0,
+      1,
+      2,
+      6
+    ]
+  }
+}

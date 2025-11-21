@@ -1,0 +1,52 @@
+{
+  "run_id": "20251110-033047Z-b80f75",
+  "artifacts_dir": "E:\\CNT\\artifacts\\cnt_fss\\20251110-033047Z-b80f75",
+  "env": {
+    "python": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "backend": "cupy",
+    "dtype": "fp32"
+  },
+  "dist": "gaussian",
+  "sigma_or_gamma": 1.0,
+  "theory": {
+    "Kc_theory": 1.5957691216057306
+  },
+  "grid": {
+    "K_min": 0.0,
+    "K_max": 3.0,
+    "K_steps": 49
+  },
+  "integrator": {
+    "dt": 0.01,
+    "steps": 6000,
+    "block": 5,
+    "tail_frac": 0.5
+  },
+  "sizes": [
+    512,
+    1024,
+    2048
+  ],
+  "results": {
+    "Kc_by_N": {
+      "512": {
+        "Kc_susc": 1.5
+      },
+      "1024": {
+        "Kc_susc": 1.625
+      },
+      "2048": {
+        "Kc_susc": 1.6875
+      }
+    },
+    "beta_est": 0.168719591211099,
+    "elapsed_sec_total": 200.7158076763153
+  },
+  "files": {
+    "csv": "E:\\CNT\\artifacts\\cnt_fss\\20251110-033047Z-b80f75\\fss_results.csv",
+    "png_R_vs_K": "E:\\CNT\\artifacts\\cnt_fss\\20251110-033047Z-b80f75\\fss_R_vs_K.png",
+    "png_slope": "E:\\CNT\\artifacts\\cnt_fss\\20251110-033047Z-b80f75\\fss_slope.png",
+    "png_beta_fit": "E:\\CNT\\artifacts\\cnt_fss\\20251110-033047Z-b80f75\\fss_beta_fit.png"
+  }
+}

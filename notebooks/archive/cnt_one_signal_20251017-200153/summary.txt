@@ -1,0 +1,10 @@
+== CNT One-Signal Thesis (REWS) ==
+Run: 20251017-200153
+
+AUCs (higher better) vs early-warning labels (pre-transition window):
+  system  AUC_REWS  AUC_Variance  AUC_AC1  AUC_1minusFlatness
+Kuramoto    0.4794        0.7514   0.6499              0.5994
+   Ising    0.5958        0.8820   0.9299              0.8188
+Logistic    0.5244        0.9379   0.0672              0.2259
+  Lorenz    0.5248        0.8055   0.6085              0.5284
+

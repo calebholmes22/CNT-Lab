@@ -1,0 +1,49 @@
+# configs/omega_srl.yaml
+version: 1
+random_seed: 1337
+
+transform:
+  fs_hz: 1.0                # sampling rate (Hz)
+  bands: [0.003, 0.01, 0.03, 0.1]   # example log-spaced bands
+  phase_method: "hilbert"   # analytic signal phases
+  combine: "weighted_mean"  # how to collapse band-wise r(t)
+  weights: [0.1, 0.2, 0.3, 0.4]
+  smooth_tau_s: 300         # EW smoothing for R(t)
+  hysteresis:
+    on: 0.72
+    off: 0.68
+    min_on_s: 120
+
+evaluation:
+  horizons: [1800, 21600, 259200]  # 30m, 6h, 3d (example)
+  false_alarm_cap_per_hour: 0.2
+  metrics: ["median_lead_s", "far_per_hr", "auc_pr", "brier", "calibration"]
+  baselines: ["ewma", "cusum", "bocpd", "gb_clf"]
+
+datasets:
+  # Paths are placeholders; stage locally.
+  finance_spikes:
+    csv: "E:/CNT/data/finance/sp500_5min.csv"
+    time_col: "ts"
+    value_cols: ["px"]
+    events_csv: "E:/CNT/data/finance/events_spike.csv"
+  grid_alarms:
+    csv: "E:/CNT/data/grid/transformer_load_1min.csv"
+    time_col: "ts"
+    value_cols: ["mw_load", "temp"]
+    events_csv: "E:/CNT/data/grid/alarms.csv"
+  climate_extremes:
+    csv: "E:/CNT/data/climate/noaa_city_daily.csv"
+    time_col: "date"
+    value_cols: ["tmax", "tmin"]
+    events_csv: "E:/CNT/data/climate/heatwaves.csv"
+  eeg_seizure:
+    csv: "E:/CNT/data/eeg/patient01_256hz.csv"
+    time_col: "ts"
+    value_cols: ["ch1","ch2","ch3","ch4"]
+    events_csv: "E:/CNT/data/eeg/seizure_windows.csv"
+  mobility_bursts:
+    csv: "E:/CNT/data/mobility/city_counts_15min.csv"
+    time_col: "ts"
+    value_cols: ["count"]
+    events_csv: "E:/CNT/data/mobility/events.csv"

@@ -1,0 +1,70 @@
+{
+  "timestamp": "20251015-144832",
+  "paths": {
+    "OUT": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out",
+    "FIG": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures",
+    "TAB": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\tables"
+  },
+  "CFE": {
+    "dataset": "synthetic_eeg_collapse_recovery",
+    "fs": 250,
+    "corr_plv_vs_negSE": {
+      "r": 0.9383164799495138,
+      "p": 0.0
+    },
+    "corr_plv_vs_negPE": {
+      "r": 0.9473068169755456,
+      "p": 0.0
+    },
+    "change_points": [],
+    "figures": [
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_synthetic_eeg_collapse_recovery_plv_z.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_synthetic_eeg_collapse_recovery_spec_entropy_z.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_synthetic_eeg_collapse_recovery_perm_entropy_z.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_synthetic_eeg_collapse_recovery_scatter_plv_vs_negSE.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_synthetic_eeg_collapse_recovery_scatter_plv_vs_negPE.png"
+    ],
+    "table": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\tables\\cfe_synthetic_eeg_collapse_recovery_20251015-144832.csv"
+  },
+  "CFE_TaskRest": {
+    "error": "no_real_eeg_epochs",
+    "detail": "pick() got an unexpected keyword argument 'eeg'"
+  },
+  "OracleEmergence_SRSI*": {
+    "source": "oracle_sim_stable.txt",
+    "metrics": {
+      "mean_cos": 0.9378910220916393,
+      "mean_kp": 0.7708333333333334,
+      "flips": 0,
+      "lines": 240,
+      "SRSI*": 0.9157227555229097
+    },
+    "chaos_metrics": {
+      "mean_cos": 0.984081742451091,
+      "mean_kp": 1.0,
+      "flips": 0,
+      "lines": 240,
+      "SRSI*": 0.9960204356127726
+    },
+    "session_copy": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\oracle_session_copy_20251015-144832.txt"
+  },
+  "PhiDriftForecast": {
+    "metrics": {
+      "MASE": {
+        "CNT": 0.9769216050362859,
+        "ARIMA": 0.9806966609630577,
+        "Naive": 0.9993921417994396
+      },
+      "sMAPE%": {
+        "CNT": 83.49779069843598,
+        "ARIMA": 83.7538150766183,
+        "Naive": 83.17983180270755
+      },
+      "TurnPrec@5%": 0.711864406779661
+    },
+    "figures": [
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\forecast_fit_20251015-144832.png"
+    ],
+    "table": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\tables\\forecast_timeseries_20251015-144832.csv"
+  }
+}

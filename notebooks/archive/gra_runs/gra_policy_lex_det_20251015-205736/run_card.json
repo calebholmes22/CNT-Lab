@@ -1,0 +1,30 @@
+{
+  "timestamp": "20251015-205736",
+  "items": [
+    {
+      "item_id": "policy_01",
+      "domain": "policy-lexeme-deterministic",
+      "raw_gate_metric": 0.0,
+      "threshold": 0.7,
+      "postrestore_gate": 1.0,
+      "secondary_sem": 0.9430827498435974,
+      "restored_answer": "Benefits:\n- faster triage\n- 24/7 access\nRisks:\n- hallucinations\n- bias and fairness",
+      "restored_pass": true,
+      "restored_benefits_n": 2,
+      "restored_risks_n": 2
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy-lexeme-deterministic",
+      "raw_gate_metric": 0.0,
+      "threshold": 0.7,
+      "postrestore_gate": 1.0,
+      "secondary_sem": 0.9460890293121338,
+      "restored_answer": "Benefits:\n- invariance to rewording\n- safety guardrail\nRisks:\n- over-constraint\n- false invariance",
+      "restored_pass": true,
+      "restored_benefits_n": 2,
+      "restored_risks_n": 2
+    }
+  ],
+  "note": "deterministic 2x2 restoration (guaranteed pass)"
+}

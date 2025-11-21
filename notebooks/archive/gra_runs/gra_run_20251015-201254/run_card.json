@@ -1,0 +1,44 @@
+{
+  "timestamp": "20251015-201254",
+  "cfg": {
+    "qa_model_name": "google/flan-t5-small",
+    "embed_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "max_new_tokens": 128,
+    "seed": 42,
+    "transform_samples_per_item": 8,
+    "pass_threshold": 0.85
+  },
+  "n_items": 3,
+  "n_records": 24,
+  "summary": [
+    {
+      "item_id": "cnt_01",
+      "invariance_mean": 0.9460889995098114,
+      "std": 0.10410204193712536,
+      "min": 0.6926586627960205,
+      "max": 1.0,
+      "count": 8
+    },
+    {
+      "item_id": "math_01",
+      "invariance_mean": 0.8108908087015152,
+      "std": 0.15807317318567624,
+      "min": 0.678382933139801,
+      "max": 0.9999998807907104,
+      "count": 8
+    },
+    {
+      "item_id": "policy_01",
+      "invariance_mean": 0.9460643380880356,
+      "std": 0.05592437833252989,
+      "min": 0.8665055632591248,
+      "max": 1.0,
+      "count": 8
+    }
+  ],
+  "threshold_pass_rate": 0.6666666666666666,
+  "notes": {
+    "definition": "Invariance = mean cosine similarity of base answer vs answers under symbol-preserving prompt transforms.",
+    "kill_shot": "FAIL if invariance_mean < 0.85 on >=30% of items."
+  }
+}

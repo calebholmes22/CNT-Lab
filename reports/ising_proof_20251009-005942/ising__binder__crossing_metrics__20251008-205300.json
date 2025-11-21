@@ -1,0 +1,31 @@
+{
+  "hypothesis": "Binder cumulants for different L cross near a single beta* ~ beta_c",
+  "beta_grid": [
+    0.43,
+    0.4325,
+    0.435,
+    0.4375,
+    0.44,
+    0.4425,
+    0.445,
+    0.4475,
+    0.45,
+    0.4525,
+    0.455
+  ],
+  "sizes": [
+    16,
+    24,
+    32,
+    48
+  ],
+  "est_beta_star": 0.44093093313532683,
+  "theory_beta_c": 0.4406867935,
+  "abs_error": 0.00024413963532682326,
+  "n_crossings": 28,
+  "runtime_params": {
+    "n_therm": 150,
+    "n_meas": 240,
+    "between": 1
+  }
+}

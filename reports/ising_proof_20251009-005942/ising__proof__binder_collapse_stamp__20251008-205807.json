@@ -1,0 +1,12 @@
+{
+  "proof": "2D Ising universality",
+  "binder_beta_star": 0.44093093313532683,
+  "beta_c": 0.4406867935,
+  "abs_error": 0.00024413963532682326,
+  "crossings": 28,
+  "figures": {
+    "crossing": "C:\\Users\\caleb\\CNT_Lab\\artifacts\\figures\\ising__binder__crossing__20251008-205300.png",
+    "collapse": "C:\\Users\\caleb\\CNT_Lab\\artifacts\\figures\\ising__scaling__collapse__20251008-205543.png"
+  },
+  "verdict": "PASS: crossing near beta_c; collapse rendered."
+}

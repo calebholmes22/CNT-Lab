@@ -1,0 +1,13 @@
+{
+  "item_id": "math_01",
+  "pass_threshold": 0.85,
+  "vanilla_sem_mean": 0.810890793800354,
+  "hybrid_mean": 0.405445396900177,
+  "parts": {
+    "semantic_mean": 0.810890793800354,
+    "concept_mean": 0.0
+  },
+  "base_vs_restored_sem": 0.9907888770103455,
+  "restored_vs_alts_sem": 0.8161905407905579,
+  "restored_answer": "The pythagorean theorem is a pythagorean theorem. The pythagorean theorem is a pythagorean theorem. The pythagorean theorem is a pythagorean theorem. The pythagorean theorem is a pythagorean theorem. The pythagorean theore"
+}

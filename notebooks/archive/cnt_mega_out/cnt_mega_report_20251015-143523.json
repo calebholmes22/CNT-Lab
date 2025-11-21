@@ -1,0 +1,79 @@
+{
+  "timestamp": "20251015-143523",
+  "paths": {
+    "OUT": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out",
+    "FIG": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures",
+    "TAB": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\tables"
+  },
+  "CFE": {
+    "dataset": "EEGBCI_subj1_motor",
+    "fs": 160,
+    "corr_plv_vs_negSE": {
+      "r": -0.061688706623951685,
+      "p": 0.017130897914901494
+    },
+    "corr_plv_vs_negPE": {
+      "r": 0.017302676362149726,
+      "p": 0.504098898334567
+    },
+    "reg_plv_vs_negSE": {
+      "slope": -0.06168870662395174,
+      "r": -0.061688706623951726,
+      "p": 0.017130897914901477
+    },
+    "reg_plv_vs_negPE": {
+      "slope": 0.017302676362149744,
+      "r": 0.017302676362149744,
+      "p": 0.5040988983345693
+    },
+    "change_points": [],
+    "figures": [
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_EEGBCI_subj1_motor_plv_z.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_EEGBCI_subj1_motor_spec_entropy_z.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_EEGBCI_subj1_motor_perm_entropy_z.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_EEGBCI_subj1_motor_scatter_plv_vs_negSE.png",
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\cfe_EEGBCI_subj1_motor_scatter_plv_vs_negPE.png"
+    ],
+    "table": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\tables\\cfe_EEGBCI_subj1_motor_20251015-143523.csv"
+  },
+  "OracleEmergence": {
+    "source": "synthetic",
+    "stable": {
+      "H3": 4.63594797843175,
+      "mean_cos_adj": 0.9154416662706379,
+      "contradiction_flips": 0,
+      "lines": 240,
+      "SRSI": 0.6540613091458078
+    },
+    "chaotic": {
+      "H3": 4.821576724886706,
+      "mean_cos_adj": 0.9736815497333627,
+      "contradiction_flips": 0,
+      "lines": 240,
+      "SRSI": 0.6634462177436509
+    },
+    "paths": {
+      "stable_txt": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\oracle_sim_stable.txt",
+      "chaos_txt": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\oracle_sim_chaos.txt"
+    }
+  },
+  "PhiDriftForecast": {
+    "metrics": {
+      "MASE": {
+        "CNT": 0.9631897957750658,
+        "ARIMA": 0.9729820919548607,
+        "Naive": 0.9999872855947906
+      },
+      "sMAPE%": {
+        "CNT": 33.857141340928095,
+        "ARIMA": 34.51653514878223,
+        "Naive": 34.96566983747103
+      },
+      "TurnPrec@5%": 0.65
+    },
+    "figures": [
+      "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\figures\\forecast_fit_20251015-143523.png"
+    ],
+    "table": "C:\\Users\\caleb\\CNT_Lab\\notebooks\\archive\\cnt_mega_out\\tables\\forecast_timeseries_20251015-143523.csv"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "timestamp": "20251016-094659",
+  "note": "GRA v0.3 (MCQ histogram + policy citation truth)",
+  "items": [
+    {
+      "item_id": "math_01",
+      "domain": "math",
+      "gate_metric": 1.0,
+      "threshold": 0.9,
+      "secondary_sem": null,
+      "restored_answer": "In a right triangle, the square of the hypotenuse equals the sum of the squares of the legs (a^2 + b^2 = c^2). Example: a=3, b=4, c=5 (since 3^2 + 4^2 = 9 + 16 = 25 = 5^2).",
+      "restored_note": "canonical",
+      "postrestore_gate": 1.0,
+      "passed": true,
+      "contract_pass": true,
+      "truth_pass": true
+    },
+    {
+      "item_id": "policy_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": null,
+      "restored_answer": "Benefits:\n- faster triage [1][2]\n- 24/7 access [1]\nRisks:\n- hallucinations [2]\n- bias and fairness [2]",
+      "restored_note": "2x2 w/ citations; truth_okB=1, truth_okR=1, failed=[('weak_support', '24/7 access'), ('weak_support', 'bias and fairness')]",
+      "postrestore_gate": 1.0,
+      "passed": false,
+      "contract_pass": true,
+      "truth_pass": false
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": null,
+      "restored_answer": "Benefits:\n- invariance to rewording [1]\n- safety guardrail [1]\nRisks:\n- over-constraint [2]\n- false invariance [2]",
+      "restored_note": "2x2 w/ citations; truth_okB=1, truth_okR=1, failed=[('weak_support', 'safety guardrail'), ('weak_support', 'false invariance')]",
+      "postrestore_gate": 1.0,
+      "passed": false,
+      "contract_pass": true,
+      "truth_pass": false
+    },
+    {
+      "item_id": "mcq_01",
+      "domain": "mcq",
+      "gate_metric": 0.42857142857142855,
+      "threshold": 0.9,
+      "secondary_sem": null,
+      "restored_answer": "ABSTAIN: insufficient consensus",
+      "restored_note": "abstained",
+      "postrestore_gate": 0.0,
+      "passed": false,
+      "contract_pass": false,
+      "truth_pass": null,
+      "maj_frac": 0.5
+    }
+  ]
+}

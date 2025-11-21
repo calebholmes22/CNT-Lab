@@ -1,0 +1,57 @@
+== CNT One-Signal — Unified Verdict (v3.4) ==
+Run dir: C:\Users\caleb\CNT_Lab\notebooks\archive\cnt_one_signal_20251017-224326
+
+Overall (all systems scanned):
+ - V1: REWS beats strongest baseline in 12.5%
+ - V1: Median lead @ Θ(q=0.85): 649 samples
+ - V2: Precision ≥ 0.60 in 50.0%
+ - V2: Median lead @ Θ₂: 430 samples
+
+Critical-only (Kuramoto · Ising · Saddle-Node):
+ - V1: REWS beats strongest baseline in 0.0%
+ - V1: Median lead @ Θ(q=0.85): 2599 samples
+ - V2: Precision ≥ 0.60 in 33.3%
+ - V2: Median lead @ Θ₂: 2677 samples
+
+-- V1 AUCs --
+                                                  system  AUC_REWS  AUC_Variance  AUC_AC1  AUC_1-Flatness  LeadTime_at_Θ(q=0.85)
+                                                Kuramoto    0.5417        0.8377   0.5055          0.7297                   1300
+                                                   Ising    0.5343        0.9384   0.8921          0.9430                   4149
+                                              SaddleNode    0.3634        0.3679   0.4125          0.2489                   2599
+                                         LOG::wiki_views    0.5021        0.4503   0.6159          0.4495                    113
+                LOG::forecast_timeseries_20251015-144832    0.4701        0.7477   0.8076          0.6731                     13
+LOG::cfe_synthetic_eeg_collapse_recovery_20251015-144832    0.6107        0.1949   0.8447          0.7831                    708
+                LOG::forecast_timeseries_20251015-143523    0.4979        0.4987   0.5797          0.6493                    247
+             LOG::cfe_EEGBCI_subj1_motor_20251015-143523    0.7851        0.4492   0.4203          0.7446                    590
+
+-- V2 AUCs/Θ₂ --
+                                                  system  AUC_REWS2  AUC_Variance  AUC_AC1trend  AUC_1-Flatness  Theta2  Lead_at_Theta2  Precision_at_Theta2  Horizon_used
+                                                Kuramoto     0.5580        0.4687        0.5131          0.5612  0.7226             852                0.608          1100
+                                                   Ising     0.5443        0.4952        0.5044          0.5263  0.5357            4074                0.287          1320
+                                              SaddleNode     0.4212        0.6254        0.5436          0.3974  0.4864            2677                0.140          1320
+                                         LOG::wiki_views     0.5883        0.4950        0.5133          0.5636  0.5391               0                0.603           450
+                LOG::forecast_timeseries_20251015-144832     0.4496        0.4685        0.5120          0.4855  0.7148               0                0.700           450
+LOG::cfe_synthetic_eeg_collapse_recovery_20251015-144832     0.5579        0.6295        0.5519          0.5426  0.7931             424                0.826           450
+                LOG::forecast_timeseries_20251015-143523     0.4845        0.5160        0.4852          0.5051  0.5099             127                0.368           450
+             LOG::cfe_EEGBCI_subj1_motor_20251015-143523     0.4402        0.4871        0.3883          0.5527  0.5027             436                0.234           450
+
+> CNT-Gloss (2025-10-26T21:37:58Z): Clarify hypothesis; add test recipe & falsifier.
+- Hypothesis: …
+- Measurement: …
+- Expected shift: …
+- Falsifier: …
+
+```cnt-test
+name: test_summary
+type: csv_threshold
+path: E:\CNT\artifacts\CNT_PLI_EC_EO_paired_bootstrap.csv
+column: N_pairs
+op: '>'
+value: 27.0
+agg: mean
+gold: true
+frozen_at: '2025-10-26T21:54:43Z'
+hash: 40b4797ed6849bbb54f8a98c3dcd4de973cc29389cc56ebe4ce76dca8506b4aa
+rows: 15
+skip: true
+```

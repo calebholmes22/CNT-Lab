@@ -1,0 +1,6 @@
+{
+  "item_id": "math_01",
+  "structured_invariance": 1.0,
+  "pass_threshold": 0.9,
+  "restored_answer": "In a right triangle, the square of the hypotenuse equals the sum of the squares of the legs (a^2 + b^2 = c^2). Example: a=3, b=4, c=5 (since 3^2 + 4^2 = 9 + 16 = 25 = 5^2)."
+}

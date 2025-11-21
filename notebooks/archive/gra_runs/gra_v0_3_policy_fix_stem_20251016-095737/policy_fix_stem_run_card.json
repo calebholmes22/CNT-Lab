@@ -1,0 +1,23 @@
+{
+  "timestamp": "20251016-095737",
+  "items": [
+    {
+      "item_id": "policy_01",
+      "restored": "Benefits:\n- faster triage [1][2]\n- 24/7 access [1]\nRisks:\n- hallucinations [2]\n- bias and fairness [3]",
+      "truth_pass": true,
+      "okB": 2,
+      "okR": 2,
+      "failed_bullets": [],
+      "n_sources": 4
+    },
+    {
+      "item_id": "cnt_01",
+      "restored": "Benefits:\n- invariance to rewording [1]\n- safety guardrail [1]\nRisks:\n- over-constraint [2]\n- false invariance [3]",
+      "truth_pass": true,
+      "okB": 2,
+      "okR": 2,
+      "failed_bullets": [],
+      "n_sources": 3
+    }
+  ]
+}

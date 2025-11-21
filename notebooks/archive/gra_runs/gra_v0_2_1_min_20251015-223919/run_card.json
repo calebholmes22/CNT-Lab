@@ -1,0 +1,50 @@
+{
+  "timestamp": "20251015-223919",
+  "items": [
+    {
+      "item_id": "math_01",
+      "domain": "math",
+      "note": "use previous math row"
+    },
+    {
+      "item_id": "policy_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.49894100427627563,
+      "restored_answer": "Benefits:\n- faster triage\n- 24/7 access\nRisks:\n- hallucinations\n- bias and fairness",
+      "restored_note": "deterministic 2\u00d72; factbank okB=2, okR=2; missing={'benefits_missing': [], 'risks_missing': []}",
+      "postrestore_gate": 1.0,
+      "passed": false,
+      "contract_pass": true,
+      "truth_pass": true
+    },
+    {
+      "item_id": "cnt_01",
+      "domain": "policy",
+      "gate_metric": 0.0,
+      "threshold": 0.7,
+      "secondary_sem": 0.5269161462783813,
+      "restored_answer": "Benefits:\n- invariance to rewording\n- safety guardrail\nRisks:\n- over-constraint\n- false invariance",
+      "restored_note": "deterministic 2\u00d72; factbank okB=2, okR=2; missing={'benefits_missing': [], 'risks_missing': []}",
+      "postrestore_gate": 1.0,
+      "passed": false,
+      "contract_pass": true,
+      "truth_pass": true
+    },
+    {
+      "item_id": "mcq_01",
+      "domain": "mcq",
+      "gate_metric": 0.0,
+      "threshold": 0.9,
+      "secondary_sem": null,
+      "restored_answer": "ABSTAIN: insufficient consensus",
+      "restored_note": "abstained",
+      "postrestore_gate": 0.0,
+      "passed": false,
+      "contract_pass": false,
+      "truth_pass": null
+    }
+  ],
+  "note": "GRA v0.2.1-min (policy factbank truth + stronger MCQ consensus)"
+}
